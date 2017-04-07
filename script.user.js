@@ -4,7 +4,7 @@
 // @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
 // @include     https://www.leitstellenspiel.de/missions/*
 // @author	    DrFussel + KV Nürnberg
-// @version     1.2.1
+// @version     1.2.2
 // @grant       none
 // ==/UserScript==
 
@@ -75,7 +75,7 @@ var Kaminbrand ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (
 var Kleinflugzeugabgestürzt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (10%)</br>2x Funkstreifenwagen (100%)";
 var MähdrescherBrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BaumaufDach ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (10%)</br>1x Feuerwehrkran (10%)";
-var PersonunterBaumeingeklemmt ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)";
+var PersonunterBaumeingeklemmt ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen (100%)";
 var Chlorgasaustritt ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x GW-Atemschutz (100%)</br>2x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>4x Funkstreifenwagen (100%)";
 var VerkehrsunfallmitLinienbus ="unterschieden wird in klein(bis 5 Patienten) - groß (bis 10 Patienten)</br>2 oder 5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1 oder 2x Rüstwagen (100%)</br>1 oder 2x Einsatzleitwagen</br>0 oder 1x Einsatzleitwagen 2 (100%)</br>0 oder 1x GW-Öl (100%)</br>0 oder 1x Feuerwehrkran (100%)</br> 2 oder 4x Funkstreifenwagen (100%)";
 var PfeffersprayinSchule ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Messtechnik (50%)</br>3x Funkstreifenwagen";
