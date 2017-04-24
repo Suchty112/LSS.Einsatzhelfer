@@ -4,7 +4,7 @@
 // @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
 // @include     https://www.leitstellenspiel.de/missions/*
 // @author	    DrFussel + KV Nürnberg
-// @version     1.2.3
+// @version     1.2.3.1
 // @grant       none
 // ==/UserScript==
 
@@ -261,7 +261,7 @@ var EntflohenerGefangener ="10x Funkstreifenwagen (100%)</br>1x Polizeihubschrau
 var PersoninWasser ="1x Boot (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)</br>3x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)";
 var GewässerverschmutzungdurchÖl ="1x Boot (100%)</br>2x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-ÖL (100%)</br>1x Funkstreifenwagen (100%)";
 //2 WR Wache
-var PkwinWasser ="2x Boote (100%)</br>2x GW-Taucher (100%)</br>3x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)</br>1x Funkstreifenwagen (100%)";
+var PkwinWasser ="2x Boote (100%)</br>2x GW-Taucher (100%)</br>3x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)</br>2x Funkstreifenwagen (100%)";
 //3 WR Wache
 var LKWinWasser ="3x Boote (100%)</br>3x GW-Taucher (100%)</br>5x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (30%)</br>3x Funkstreifenwagen (100%)";
 var BusinWasser ="3x Boote (100%)</br>3x GW-Taucher (100%)</br>5x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>Notarzteinsatzfahrzeug (30%)</br>3x Funkstreifenwagen (100%)";
