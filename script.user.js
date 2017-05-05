@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author	    DrFussel + KV Nürnberg
-// @version     1.2.4
+// @version     1.2.5
 // @grant       none
 // ==/UserScript==
 
@@ -29,7 +29,7 @@ var Containerbrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var Mülleimerbrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var AuslaufendeBetriebsstoffe = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var KleineÖlspur = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-var Motorradunfall = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br>1x Notarzteinsatzfahrzeug (70%)";
+var Motorradunfall = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (70%)";
 var BrennendePapiercontainer = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennendeHecke = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var ÄsteaufFahrbahn = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
@@ -40,7 +40,7 @@ var BaumaufRadweg = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var Wohnwagenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennenderLKW ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var Gartenlaubenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-var Zimmerbrand = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (30%)</br>1x Funkstreifenwagen (50%)</br>1x Notarzteinsatzfahrzeug (50%)";
+var Zimmerbrand = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (30%)</br>1x Funkstreifenwagen (50%)</br>1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (50%)";
 var KleinerFeldbrand = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var FeueraufBalkon = "2x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (100%)";
 var Küchenbrand = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (50%)";
@@ -53,51 +53,51 @@ var Kellerbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Einsatzle
 var Schornsteinbrand ="1x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (100%) </br> 1x Einsatzleitwagen 1 (100%)";
 var BrennendesBusHäuschen ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var GeplatzteWasserleitung ="2x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Rüstwagen (20%) </br> 1x Einsatzleitwagen 1 (20%)";
-var Verkehrsunfall ="Hier wird nur der größte VU angenommen:</br>2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (70%)";
+var Verkehrsunfall ="Hier wird nur der größte VU angenommen:</br>2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (70%)";
 //4 FW-Wache
 var BrandimSupermarkt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (70%)</br>1x Rüstwagen (30%) </br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (20%) </br> 1x GW-Messtechnik (30%)";
 var Garagenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var KellerunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-var FeuerinEinfamilienhaus ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen 1 (70%)</br>Notarzteinsatzfahrzeug (50%)";
+var FeuerinEinfamilienhaus ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen 1 (70%)</br>1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
 var TiefgarageunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 //var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennendeTrafostation ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)<br/>1x FuStW (100%)";
-var Gasgeruch ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Dekon P (30%)</br>1x GW-Messtechnik (30%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Gefahrgut (30%)</br>1x FuStW</br>1x Notarzteinsatzfahrzeug (40%)";
+var Gasgeruch ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Dekon P (30%)</br>1x GW-Messtechnik (30%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Gefahrgut (30%)</br>1x FuStW</br>1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (40%)";
 //5 FW-Wachen
 var Maschinenbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Rüstwagen (100%)</br> 1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz (20%)</br>1x Schlauchwagen (30%)";
-var RauchentwicklunginMuseum ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x GW-Atemschutz (100%)</br>1x Einsatzleitwagen 1 (100%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (75%)";
+var RauchentwicklunginMuseum ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x GW-Atemschutz (100%)</br>1x Einsatzleitwagen 1 (100%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (75%)";
 var FeuerimKrankenhaus  ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 2x Rüstwagen (30%)</br> 1x Drehleiter (100%)</br> 1x Einsatzleitwagen 1 (100%)</br> 1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)";
-var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%) Nur bei Patient</br>1x Notarzteinsatzfahrzeug (50%)";
-var Bürobrand ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>2x Rüstwagen (30%)</br>1x GW-Atemschutz (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (40%)";
-var LKWinSupermarkt ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (70%)</br> 1x Einsatzleitwagen 1 (100%)</br>1x Feuerwehrkran (70%)</br>1x Gerätekraftwagen (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (50%)";
+var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%) Nur bei Patient</br>1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (50%)";
+var Bürobrand ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>2x Rüstwagen (30%)</br>1x GW-Atemschutz (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (40%)";
+var LKWinSupermarkt ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (70%)</br> 1x Einsatzleitwagen 1 (100%)</br>1x Feuerwehrkran (70%)</br>1x Gerätekraftwagen (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
 //6 FW-Wachen
 var AufgerissenerÖltank ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Öl (100%)";
 var GroßeÖlspur ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Öl (75%)";
 var Kaminbrand ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)";
-var Kleinflugzeugabgestürzt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (80%)";
+var Kleinflugzeugabgestürzt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (80%)";
 var MähdrescherBrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BaumaufDach ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (10%)</br>1x Feuerwehrkran (10%)";
 var PersonunterBaumeingeklemmt ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-var Chlorgasaustritt ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x GW-Atemschutz (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>4x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (60%)";
-var VerkehrsunfallmitLinienbus ="unterschieden wird in klein(bis 5 Patienten) - groß (bis 10 Patienten)</br>2 oder 5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1 oder 2x Rüstwagen (100%)</br>1 oder 2x Einsatzleitwagen 1</br>0 oder 1x Einsatzleitwagen 2 (100%)</br>0 oder 1x GW-Öl (100%)</br>0 oder 1x Feuerwehrkran (100%)</br> 2 oder 4x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (20 oder 40%)";
-var PfeffersprayinSchule ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Messtechnik (50%)</br>3x Funkstreifenwagen</br>Notarzteinsatzfahrzeug (10%)";
+var Chlorgasaustritt ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x GW-Atemschutz (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>4x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (60%)";
+var VerkehrsunfallmitLinienbus ="unterschieden wird in klein(bis 5 Patienten) - groß (bis 10 Patienten)</br>2 oder 5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1 oder 2x Rüstwagen (100%)</br>1 oder 2x Einsatzleitwagen 1</br>0 oder 1x Einsatzleitwagen 2 (100%)</br>0 oder 1x GW-Öl (100%)</br>0 oder 1x Feuerwehrkran (100%)</br> 2 oder 4x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (20 oder 40%)";
+var PfeffersprayinSchule ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Messtechnik (50%)</br>3x Funkstreifenwagen</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (10%)";
 //7 FW-Wachen
 //var PersonhinterTür ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennendeLok ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (50%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)</br>1x GW-Atemschutz (30%)</br>1x Schlauchwagen (100%)";
 var Flächenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen 1 (20%)</br>2x Funkstreifenwagen (100%)";
 var MittlererFeldbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen 1 (50%)";
-var BrennendesReetdachhaus ="5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz (30%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (50%)";
+var BrennendesReetdachhaus ="5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz (30%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
 var Scheunenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz (25%)";
 // 8 FW-Wachen
 var AusgedehnteÖlspur = "6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Öl (100%)</br>2x Funkstreifenwagen (100%)";
-var BrennenderBus = "5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (75%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (30%)";
-var LKWumgestürzt = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Feuerwehrkran (75%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (50%)";
+var BrennenderBus = "5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (75%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (30%)";
+var LKWumgestürzt = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Feuerwehrkran (75%)</br>2x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
 var GroßerWaldbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Schlauchwagen(100%)</br>1x Funkstreifenwagen (100%)";
 var BaumaufGleisen ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)";
 //9 FW-Wachen
 var StraßeunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Funkstreifenwagen (100%)";
-var FeueraufBauernhofMittel ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz(100%)</br>1x GW-L2-Wasser (100%)</br>3x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (33%)";
-var VerkehrsunfallmitZug ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (80%)";
+var FeueraufBauernhofMittel ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz(100%)</br>1x GW-L2-Wasser (100%)</br>3x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (33%)";
+var VerkehrsunfallmitZug ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (80%)";
 var BaumaufOberleitung ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)";
 //10 FW-Wachen
 var BrennenderGüterwaggon ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Messtechnik (20%)</br>1x Dekon P (10%)";
@@ -117,7 +117,7 @@ var VerletztePersonaufHochspannungsmast = "2x Löschfahrzeug/Tanklöschfahrzeug 
 var BeschädigterKesselwagen = "10x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Drehleiter (100%)</br>1x Dekon P (100%)</br>1x GW-Gefahrgut(100%)</br>1x GW-Messtechnik (100%)</br>3x Funkstreifenwagen (100%)</br>1x GKW";
 //13 FW-Wachen
 var Sporthallenbrand ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (30%)</br>1x Schlauchwagen (30%)</br>1x GW-Atemschutz (50%)";
-var LeckinChemikalientank ="8x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Schlauchwagen (20%)</br>1x GW-Atemschutz (100%)</br>1x GW-Öl (50%)</br>2x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>1x Dekon P (100%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (15%)";
+var LeckinChemikalientank ="8x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Schlauchwagen (20%)</br>1x GW-Atemschutz (100%)</br>1x GW-Öl (50%)</br>2x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>1x Dekon P (100%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (15%)";
 //15 FW-Wachen
 var ParkdeckvollWassergelaufen ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Öl (100%)</br>2x Funkstreifenwagen (100%)";
 //18 FW-Wachen
@@ -126,10 +126,10 @@ var FeuerimLagerraum ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehle
 //20 FW-Wachen
 var GroßfeuerimWald = "10x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (10%)</br>1x Schlauchwagen (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (30%)</br>1x GW-Atemschutz (100%)</br>3x Funkstreifenwagen (100%)";
 //25 FW-Wachen
-var Gasexplosion ="20x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (100%)</br>2x Schlauchwagen (100%)</br>4x Einsatzleitwagen 1 (100%)</br>2x Einsatzleitwagen 2 (100%)</br>2x GW-Messtechnik (100%)</br>2x GW-Atemschutz (100%)</br>2x Drehleiter (100%)</br>1x Dekon P (10%)</br>1x Feuerwehrkran (40 %)</br>4x Funkstreifenwagen (100%)</br>1x GKW (100%)</br>1x MTW-TZ (100%)</br>1x BRmG R (100%)</br>1x LKW K9 (100%)</br>1x MzKW (100%)</br>1x Anh DLE (100%)</br>Notarzteinsatzfahrzeug (40%)";
+var Gasexplosion ="20x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (100%)</br>2x Schlauchwagen (100%)</br>4x Einsatzleitwagen 1 (100%)</br>2x Einsatzleitwagen 2 (100%)</br>2x GW-Messtechnik (100%)</br>2x GW-Atemschutz (100%)</br>2x Drehleiter (100%)</br>1x Dekon P (10%)</br>1x Feuerwehrkran (40 %)</br>4x Funkstreifenwagen (100%)</br>1x GKW (100%)</br>1x MTW-TZ (100%)</br>1x BRmG R (100%)</br>1x LKW K9 (100%)</br>1x MzKW (100%)</br>1x Anh DLE (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (40%)";
 //30 FW-Wachen
-var FeueraufBauernhofGroß ="15x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Schlauchwagen (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>2x GW-Atemschutz (100%)</br>4x Drehleiter (100%)</br>1x Feuerwehrkran (15%)</br>3x Funkstreifenwagen (100%)</br>2x GKW (100%)</br>1x MTW-TZ (100%)</br>2x BRmG R (100%)</br>2x LKW K9 (100%)</br>Notarzteinsatzfahrzeug (50%)";
-var BürobrandGroß = "10x Löschfahrzeug (100%)</br>1x Einsatzleitwagen 2 (100%)</br>3x Einsatzleitwagen 1 (100%)</br>2x Drehleiter (100%)</br>2x Rüstwagen (30%)</br>1x GW-A (100%)</br>3x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (40%)";
+var FeueraufBauernhofGroß ="15x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Schlauchwagen (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>2x GW-Atemschutz (100%)</br>4x Drehleiter (100%)</br>1x Feuerwehrkran (15%)</br>3x Funkstreifenwagen (100%)</br>2x GKW (100%)</br>1x MTW-TZ (100%)</br>2x BRmG R (100%)</br>2x LKW K9 (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
+var BürobrandGroß = "10x Löschfahrzeug (100%)</br>1x Einsatzleitwagen 2 (100%)</br>3x Einsatzleitwagen 1 (100%)</br>2x Drehleiter (100%)</br>2x Rüstwagen (30%)</br>1x GW-A (100%)</br>3x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (40%)";
 //Temporär:
 //Winter
 var BrennenderTannenbaum ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
@@ -257,6 +257,8 @@ var Raub ="3x Funkstreifenwagen (100%)";
 var Personenkontrolle ="1x Funkstreifenwagen (100%)";
 //5 Polizei Wachen
 var Massenschlägerei ="5x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (10%)";
+//6 Polizei Wachen
+var Tankstellenüberfall ="6x Funkstreifenwagen (100%)";
 //7 Polizei Wachen
 var EntflohenerGefangener ="10x Funkstreifenwagen (100%)</br>1x Polizeihubschrauber (100%)";
 //1 WR Wache
@@ -266,7 +268,7 @@ var GewässerverschmutzungdurchÖl ="1x Boot (100%)</br>2x Löschfahrzeuge (100%
 var PkwinWasser ="2x Boote (100%)</br>2x GW-Taucher (100%)</br>3x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)</br>2x Funkstreifenwagen (100%)";
 //3 WR Wache
 var LKWinWasser ="3x Boote (100%)</br>3x GW-Taucher (100%)</br>5x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (30%)</br>3x Funkstreifenwagen (100%)";
-var BusinWasser ="3x Boote (100%)</br>3x GW-Taucher (100%)</br>5x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>Notarzteinsatzfahrzeug (30%)</br>3x Funkstreifenwagen (100%)";
+var BusinWasser ="3x Boote (100%)</br>3x GW-Taucher (100%)</br>5x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (30%)</br>3x Funkstreifenwagen (100%)";
 //1 BePo Wache
 var SchwerpunkteinsatzTageswohnungseinbrüche ="3x GruKw (100%)</br>1x leBefKw (100%)";
 var SchwerpunkteinsatzVerkehrsüberwachung ="3x GruKw (100%)</br>1x leBefKw (100%)";
