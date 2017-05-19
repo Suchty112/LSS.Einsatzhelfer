@@ -5,8 +5,8 @@
 // @include     https://www.leitstellenspiel.de/missions/*
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
-// @author	    DrFussel + KV Nürnberg
-// @version     1.2.5.1
+// @author    DrFussel u. KV Nürnberg/SanniHameln
+// @version     1.2.5.2
 // @grant       none
 // ==/UserScript==
 
@@ -166,8 +166,8 @@ var Frankensteingesichtet ="3x Funkstreifenwagen (100%)";
 var Süßigkeitendiebstahl ="1x Funkstreifenwagen (100%)";
 //Sommerlich
 var Sonnenstich ="1x Rettungstransportwagen (100%)";
-var Hitzschlag ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-var Hitzekrampf ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
+var Hitzschlag ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (40%)";
+var Hitzekrampf ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)";
 //Ostern
 var OstereierDieb ="1x Funkstreifenwagen (100%)";
 var PinselausWerkstattentwendet ="1x Funkstreifenwagen (100%)";
