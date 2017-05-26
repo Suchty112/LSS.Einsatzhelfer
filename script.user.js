@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.2.5.2
+// @version     1.2.6
 // @grant       none
 // ==/UserScript==
 
