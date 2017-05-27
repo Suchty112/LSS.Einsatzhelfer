@@ -4,14 +4,9 @@ Bis zur Intigrität in den [LSS-ManagerV3](https://github.com/LSS-Manager/lss-ma
 
 
 ## Changelog
-1.2.6
+0.1
 
--  Gasunfall in Werkstatt added
+-  Release for Missionchief
 
-1.2.5.2
 
-- Sommereinsätze Bugfix
-
-1.2.5.1
-- Bugfixxes bei einigen Einsätzen
 
