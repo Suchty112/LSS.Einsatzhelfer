@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.2.6
+// @version     1.2.7
 // @grant       none
 // ==/UserScript==
 
@@ -194,6 +194,7 @@ var GestürztePerson ="1x Rettungstransportwagen (100%)";
 var GestürzterFußgänger  ="1x Rettungstransportwagen (100%)";
 var GestürzterRadfahrer ="1x Rettungstransportwagen (100%)";
 var Kopfplatzwunde ="1x Rettungstransportwagen oder Krankentransportwagen (100%)";
+var ArbeitsunfallimGarten ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
 //3 Rettungswachen
 var Herzinfarkt ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
 var akuterAsthmaAnfall ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
