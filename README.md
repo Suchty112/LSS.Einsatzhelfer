@@ -4,6 +4,9 @@ Bis zur Intigrität in den [LSS-ManagerV3](https://github.com/LSS-Manager/lss-ma
 
 
 ## Changelog
+1.2.7
+
+-  Arbeitsunfall im Garten added
 1.2.6
 
 -  Gasunfall in Werkstatt added
