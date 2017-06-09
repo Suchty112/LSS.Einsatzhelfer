@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.2.7
+// @version     1.2.8
 // @grant       none
 // ==/UserScript==
 
@@ -265,6 +265,7 @@ var Tankstellenüberfall ="6x Funkstreifenwagen (100%)";
 var EntflohenerGefangener ="10x Funkstreifenwagen (100%)</br>1x Polizeihubschrauber (100%)";
 //1 WR Wache
 var PersoninWasser ="1x Boot (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)</br>3x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)";
+var HilflosePersonaufWasser ="1x Boot (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%) / evtl. auch 1x RTH (50%)</br>1x Löschfahrzeuge (20%)</br>1x GW-Taucher (10%)";
 var GewässerverschmutzungdurchÖl ="1x Boot (100%)</br>2x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-ÖL (100%)</br>1x Funkstreifenwagen (100%)";
 //2 WR Wache
 var PkwinWasser ="2x Boote (100%)</br>2x GW-Taucher (100%)</br>2x GW-Wasserrettung</br>3x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)</br>2x Funkstreifenwagen (100%)";
