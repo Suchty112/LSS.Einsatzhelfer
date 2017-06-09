@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1
+// @version     0.2
 // @grant       none
 // ==/UserScript==
 
@@ -65,7 +65,7 @@ var Brandincafetaria = "1x Tankautospuits (100%) </br> 1x Redvoertuig (10%)";
 var Verkeersongevalmetbeknelling ="1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (10%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
 var Brandendbushokje ="1x Tankautospuit (100%)";
 var Vrachtwagengekanteld ="1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (70%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
-var Brandinvakantiewoning ="2x Tankautospuit (100%)</br>1x Redvoertuig (80%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)";
+var Brandinvakantiewoning ="2x Tankautospuit (100%)</br>1x Redvoertuig (80%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)"
 //4 Brandweerposten
 var Brandinwoonkamer ="2x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Redvoertuig (80%)</br>1x Politieauto (100%)";
 var Brandendevrachtwagen ="2x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Slangenwagen (10%)";
@@ -162,6 +162,8 @@ var Botbreuk ="1x Ambulance (100%)";
 var Hyperventilatie ="1x Ambulance (100%)";
 var Hittekramp ="1x Ambulance (100%)";
 var Hoofdwond ="1x Ambulance (100%)";
+var Benauwdheid ="1x Ambulance (100%)";
+var Valvantrap ="1x Ambulance (100%)";
 //2 Ambulancestandplaatsen
 var Ontwrichting = "1x Ambulance (100%)";
 var Hoofdletsel = "1x Ambulance (100%)";
@@ -180,9 +182,9 @@ var Gebrokenrib = "1x Ambulance (100%)";
 //5 Ambulancestandplaatsen
 var Psychiatrischbeeld = "1x Ambulance (100%)";
 //10 Ambulancestandplaatsen
-var Valvanhoogte = "1x Ambulance (100%)</br>1x MMT-Auto (100%)";
+var Valvanhoogte(>5m) = "1x Ambulance (100%)</br>1x MMT-Auto (100%)";
 var Ernstigebrandwonden = "1x Ambulance (100%)</br>1x MMT-Auto (100%)";
-var Aanrijdingvoetganger = "1x Ambulance (100%)</br>1x MMT-Auto (100%)</br>1x Politieauto (100%)";
+var Aanrijdingvoetganger(>30km/h) = "1x Ambulance (100%)</br>1x MMT-Auto (100%)</br>1x Politieauto (100%)";
 var Aanrijdingdoortrein = "1x Ambulance (100%)</br>1x MMT-Auto (100%)</br>1x Politieauto (100%)";
 //1 Politiebureau
 var Winkeldiefstal ="1x Politieauto (100%)";
@@ -203,7 +205,7 @@ var Vechtpartijincafé ="4x Politieautos (100%)</br>1x Officier van Dienst Polit
 var Steekincident ="3x Politieautos (100%)</br>1x Officier van Dienst Politie (100%)</br>1x Ambulance (100%)</br>1x MMT-Auto (100%)";
 var Plofkraak ="8x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)</br>1x Politie Helikopter (100%)</br>1x OvD-B (100%)</br>1x Tankautospuit (100%)";
 var Invalinwoning ="3x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)";
-//1 Waterongevallenbestrijding
+//1 Waterongevallenbestrijding 
 var Bergenobjectuitwatervoorpolitie ="1x Tankautospuit (100%)</br>1x Waterongevallenvoertuig (100%)</br>2x Politieautos (100%)";
 var Verkeersongevalmetbeknelling ="1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuigs(40%)</br>1x Waterongevallenvoertuig (20%)</br>2x Politieautos (100%)</br>1x OvD-B (100%)</br>1x Ambulance (100%)";
 var Personenautoinsloot ="1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuigs(50%)</br>1x Waterongevallenvoertuig (80%)</br>2x Politieautos (100%)</br>1x OvD-B (100%)</br>min. 1x Ambulance (100%)";
@@ -225,8 +227,8 @@ function addInfo(missionName) {
     try{
     missionString += eval(missionName);
     }catch(err){
-        missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;    }
-    info.innerHTML = "<h3>Benötigte Fahrzeuge:</h3> "+missionString + "</br>";
+        missionString = "Fout bij het laden voertuigen </br>Geef dan ook aan ontwikkelaars: "+err;    }
+    info.innerHTML = "<h3>vereiste voertuigen:</h3> "+missionString + "</br>";
 
      document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
 
