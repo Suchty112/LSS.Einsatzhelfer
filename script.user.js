@@ -182,9 +182,9 @@ var Gebrokenrib = "1x Ambulance (100%)";
 //5 Ambulancestandplaatsen
 var Psychiatrischbeeld = "1x Ambulance (100%)";
 //10 Ambulancestandplaatsen
-var Valvanhoogte(>5m) = "1x Ambulance (100%)</br>1x MMT-Auto (100%)";
+var Valvanhoogte = "1x Ambulance (100%)</br>1x MMT-Auto (100%)";
 var Ernstigebrandwonden = "1x Ambulance (100%)</br>1x MMT-Auto (100%)";
-var Aanrijdingvoetganger(>30km/h) = "1x Ambulance (100%)</br>1x MMT-Auto (100%)</br>1x Politieauto (100%)";
+var Aanrijdingvoetganger = "1x Ambulance (100%)</br>1x MMT-Auto (100%)</br>1x Politieauto (100%)";
 var Aanrijdingdoortrein = "1x Ambulance (100%)</br>1x MMT-Auto (100%)</br>1x Politieauto (100%)";
 //1 Politiebureau
 var Winkeldiefstal ="1x Politieauto (100%)";
