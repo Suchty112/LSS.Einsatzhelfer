@@ -65,7 +65,7 @@ var Brandincafetaria = "1x Tankautospuits (100%) </br> 1x Redvoertuig (10%)";
 var Verkeersongevalmetbeknelling ="1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (10%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
 var Brandendbushokje ="1x Tankautospuit (100%)";
 var Vrachtwagengekanteld ="1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (70%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
-var Brandinvakantiewoning ="2x Tankautospuit (100%)</br>1x Redvoertuig (80%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)"
+var Brandinvakantiewoning ="2x Tankautospuit (100%)</br>1x Redvoertuig (80%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)";
 //4 Brandweerposten
 var Brandinwoonkamer ="2x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Redvoertuig (80%)</br>1x Politieauto (100%)";
 var Brandendevrachtwagen ="2x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Slangenwagen (10%)";
