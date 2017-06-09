@@ -4,6 +4,10 @@ Bis zur Intigrität in den [LSS-ManagerV3](https://github.com/LSS-Manager/lss-ma
 
 
 ## Changelog
+1.2.8
+
+-  Hilflose Person im Wasser added
+
 1.2.7
 
 -  Arbeitsunfall im Garten added
