@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        Einsatzhelfer Meldkamerspel
+// @name        IncidentHelper Meldkamerspel
 // @namespace   meldkamerspel
-// @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
+// @description Geeft de voertuigen nodig zijn in een info-venster
 // @include     https://www.meldkamerspel.com/missions/*
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
