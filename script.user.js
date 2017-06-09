@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1
+// @version     0.1.3
 // @grant       none
 // ==/UserScript==
 
@@ -51,18 +51,18 @@ var Roadaccident ="1x Firetruck (100%)";
 var Burningsubstation ="2x Firetrucks (100%) </br>1x Battalion Chief (100%)</br>1x Police Car (100%)";
 var Garagefire ="2x Firetrucks (100%)";
 var MVARollover ="3x Firetrucks (100%)</br>2x Battalion Chiefs (100%)</br>1x Platform Truck (50%)</br>1x Heavy Resuce (100%)</br>2x Police Cars</br>min. 1x Ambulance(100%)";
-//5 Fire Stationn
+//5 Fire Station
 var Burningmachine ="3x Firetrucks (100%)</br> 1x Heavy Rescue (100%)</br> 1x Battalion Chief (100%)</br>1x Mobile Air (20%)</br>1x Water Tanker (30%)";
 var BuildingCollapse ="2x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chiefs (100%)</br>2x Heavy Rescues (100%)</br>1x Mobile Command (100%)</br>min. 1x Ambulance (100%)";
 var TrenchRescue  ="3x Firetrucks (100%)</br> 2x Heavy Rescues (100%)</br> 1x Battalion Chief (100%)</br>1x Police Car (100%)</br>min. 2x Ambulance (100%)";
-//6 Fire Stationn
+//6 Fire Station
 var Fireplacefire ="1x Firetruck (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)";
 var MissingPerson ="2x Firetrucks (100%)</br>1x Battalion Chief (100%)</br>5x Police Cars (100%)</br>1x Police Helicopter</br>1x Ambulance(100%)";
 var Harvesterfire ="2x Firetrucks (100%)";
 var Personundertree ="1x Firetruck (100%)</br>1x Ambulance (100%)";
 var IndustrialFire ="5x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>1x Hazmat (100%)</br>min. 1x Ambulance";
 var ResidentialFire ="3x Firetrucks (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)</br>2x Police Cars (100%)</br>min. 1x Ambulance";
-var VehicleAccident-Entrapment ="2x Firetrucks (100%)</br>2x Heavy Rescues (100%)</br>1x Battalion Chief (100%)</br>2x Police Cars (100%)</br>min. 1x Ambulance";
+var VehicleAccidentEntrapment ="2x Firetrucks (100%)</br>2x Heavy Rescues (100%)</br>1x Battalion Chief (100%)</br>2x Police Cars (100%)</br>min. 1x Ambulance";
 //7 Fire Stationn
 var Burninglocomotive ="4x Firetrucks (100%)</br>1x Heavy Rescue (50%)</br>1x Battalion Chief (100%)</br>1x Mobile Air (30%)</br>1x Water Tanker (100%)";
 //10 Fire Stationn
@@ -71,7 +71,7 @@ var LargeAircraftCrash ="3x Firetrucks (100%)</br>4x ARFF (100%)</br>1x Battalio
 var Gasstationfire ="4x Firetrucks (100%)</br>2x Heavy Rescues (30%)</br>1x Platform Trucks (100%)</br>1x Battalion Chief (100%)</br>1x Mobile Command (100%)</br>1x Hazmat (70%)</br>1x Mobile Air(30%)";
 var Dangerousgoodstruckaccident ="3x Firetrucks (100%)</br>1x Heavy Rescue (50%)</br>1x Battalion Chief (100%)</br>1x Hazmat (100%)";
 //13 Fire Stationn
-var UnknownTankerSpill ="4x Firetrucks (100%)</br>2x Heavy Rescues (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>3x Police Cars (100%)</br>1x Hazmat (100%)";
+var UnknownTankerSpill ="4x Firetrucks (100%)</br>2x Heavy Rescues (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>3x Police Cars (100%)</br>2x Hazmat (100%)";
 var CommercialFire ="6x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Heavy Rescues (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>2x Police Cars (100%)";
 var HighRiseFire ="5x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>1x Heavy Rescue (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>1x Water Tanker (100%)</br>2x Mobile Air(50%)</br> min. 4x Ambulance";
 //Temporär:
@@ -79,7 +79,7 @@ var HighRiseFire ="5x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>1x Hea
 var Theftatchristmasmarket ="1x Police Car (100%)";
 var Burningchristmasmarketstall ="1x Firetruck (100%)</br>1x Ambulance (??%)";
 var Fireatchristmasmarket ="1x Firetruck (100%)</br>1x Ambulance (??%)";
-var Trafficaccident-ice ="1x Firetruck (100%)</br>1x Heavy Resuce (100%)";
+var Trafficaccidentice ="1x Firetruck (100%)</br>1x Heavy Resuce (100%)";
 var Burningchristmastree ="1x Firetruck (100%)";
 var Burningadventwreath ="1x Firetruck (100%)";
 var Brawlatchristmasmarket ="2x Police Cars (100%)</br>1x Ambulance (??%)";
@@ -95,7 +95,7 @@ var Frankensteinsighted ="3x Police Cars (100%)";
 var candytheft ="1x Police Car (100%)";
 //Verbandsgroßeinsätze
 var Majorfire ="10x Firetrucks (100%)</br>2x Battalion Chiefs (100%)</br>2x Platform Trucks (100%)</br>1x Mobile Air (100%)</br>1x Water Tanker (100%)</br>2x Heavy Rescues (100%)</br>1x Mobile Command (100%)";
-var Pile-up ="10x Firetrucks (100%)</br>2x Battalion Chiefs (100%)</br>5x Heavy Rescues (100%)</br>2x Hazmats (100%)</br> min. 10x Ambulance(100%)";
+var Pileup ="10x Firetrucks (100%)</br>2x Battalion Chiefs (100%)</br>5x Heavy Rescues (100%)</br>2x Hazmats (100%)</br> min. 10x Ambulance(100%)";
 var BombExplosion ="6 Firetruck (100%)</br>2x Platform Trucks (100%)</br>2x Heavy Rescue (100%)</br>1x Mobile Command (100%)</br>2x Battalion Chief (100%)</br>1x Police Helicopter (100%)</br>14x Police Cars (100%)</br> 4x Swat Cars";
 var Unannounceddemonstration ="7x Police Cars (100%)";
 //1 Rescue Station
@@ -106,6 +106,7 @@ var Diabeticproblems  ="1x Ambulance (100%)";
 var FoodPoisoning ="1x Ambulance (100%)";
 //2 Rescue Stations
 var Anaphylaxis ="1x Ambulance (100%)";
+var Overdose ="1x Ambulance (100%)</br>1x Police Car (100%)";
 //3 Rescue Stations
 var Cardiacinfarction ="1x Ambulance (100%)";
 var Acuteasthma ="1x Ambulance (100%)";
@@ -143,7 +144,7 @@ var DrugWarrant ="1x Police Cars (100%)</br>1x SWAT Car (100%)";
 var BankRobbery ="6x Police Cars (100%)</br>2x SWAT Cars (100%)";
 //9 Police Station
 var ActiveShooter ="4x Police Cars (100%)</br>1x Police Helicopter (100%)</br>4x SWAT Cars (100%)</br>min. 1x Ambulance (100%)";
-var High-RiskWarrant ="1x Police Cars (100%)</br>3x SWAT Cars (100%)";
+var HighRiskWarrant ="1x Police Cars (100%)</br>3x SWAT Cars (100%)";
 //10 Police Station
 var AircraftHijack ="10x Police Cars (100%)</br>4x SWAT Cars (100%)</br>1x Battalion Chief</br>min. 1x Ambulance (100%)";
 
