@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        Einsatzhelfer Missionchief
+// @name        Missionhelper Missionchief
 // @namespace   missionchief
-// @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
+// @description Displays the required vehicles in an info window
 // @include     https://www.missionchief.com/missions/*
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
@@ -156,8 +156,8 @@ function addInfo(missionName) {
     try{
     missionString += eval(missionName);
     }catch(err){
-        missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;    }
-    info.innerHTML = "<h3>Benötigte Fahrzeuge:</h3> "+missionString + "</br>";
+        missionString = "Error loading vehicle </br>Please forward to developer: "+err;    }
+    info.innerHTML = "<h3>Required vehicles:</h3> "+missionString + "</br>";
 
      document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
 
