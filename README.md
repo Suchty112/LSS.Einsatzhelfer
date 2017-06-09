@@ -4,6 +4,10 @@ Bis zur Intigrität in den [LSS-ManagerV3](https://github.com/LSS-Manager/lss-ma
 
 
 ## Changelog
+0.1.3
+
+- Overdose added and many Bugfixxes
+
 0.1
 
 -  Release for Missionchief
