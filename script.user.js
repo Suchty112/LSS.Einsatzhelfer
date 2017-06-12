@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1.3
+// @version     0.1.4
 // @grant       none
 // ==/UserScript==
 
@@ -63,17 +63,19 @@ var Personundertree ="1x Firetruck (100%)</br>1x Ambulance (100%)";
 var IndustrialFire ="5x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>1x Hazmat (100%)</br>min. 1x Ambulance";
 var ResidentialFire ="3x Firetrucks (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)</br>2x Police Cars (100%)</br>min. 1x Ambulance";
 var VehicleAccidentEntrapment ="2x Firetrucks (100%)</br>2x Heavy Rescues (100%)</br>1x Battalion Chief (100%)</br>2x Police Cars (100%)</br>min. 1x Ambulance";
-//7 Fire Stationn
+//7 Fire Station
 var Burninglocomotive ="4x Firetrucks (100%)</br>1x Heavy Rescue (50%)</br>1x Battalion Chief (100%)</br>1x Mobile Air (30%)</br>1x Water Tanker (100%)";
-//10 Fire Stationn
+//10 Fire Station
 var LargeAircraftCrash ="3x Firetrucks (100%)</br>4x ARFF (100%)</br>1x Battalion Chief (100%)</br>5x Police Cars (100%)</br>min. 1x Ambulance (100%) max. 25 Ambulance";
-//11 Fire Stationn
+//11 Fire Station
 var Gasstationfire ="4x Firetrucks (100%)</br>2x Heavy Rescues (30%)</br>1x Platform Trucks (100%)</br>1x Battalion Chief (100%)</br>1x Mobile Command (100%)</br>1x Hazmat (70%)</br>1x Mobile Air(30%)";
 var Dangerousgoodstruckaccident ="3x Firetrucks (100%)</br>1x Heavy Rescue (50%)</br>1x Battalion Chief (100%)</br>1x Hazmat (100%)";
-//13 Fire Stationn
+//13 Fire Station
 var UnknownTankerSpill ="4x Firetrucks (100%)</br>2x Heavy Rescues (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>3x Police Cars (100%)</br>2x Hazmat (100%)";
 var CommercialFire ="6x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Heavy Rescues (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>2x Police Cars (100%)";
 var HighRiseFire ="5x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>1x Heavy Rescue (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>1x Water Tanker (100%)</br>2x Mobile Air(50%)</br> min. 4x Ambulance";
+//15 Fire Station
+var FireinanOfficeBuilding ="10x Firetrucks (100%)</br>4x Platform Trucks (100%)</br>2x Heavy Rescue (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>1x Water Tanker (100%)</br>1x Mobile Air(50%)</br>3x Police Cars</br> min. 1x Ambulance";
 //Temporär:
 //Winter
 var Theftatchristmasmarket ="1x Police Car (100%)";
