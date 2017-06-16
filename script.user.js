@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name        IncidentHelper Meldkamerspel
+// @name        MeldingHelper Meldkamerspel
 // @namespace   meldkamerspel
 // @description Geeft de voertuigen nodig zijn in een info-venster
 // @include     https://www.meldkamerspel.com/missions/*
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.2
+// @version     0.3
 // @grant       none
 // ==/UserScript==
 
@@ -194,6 +194,7 @@ var Verwardpersoon ="1x Politieauto (100%)";
 //2 Politiebureaus
 var Huiselijkgeweld ="1x Politieautos (100%)";
 var Overvalwinkel ="2x Politieautos (100%)";
+var Assistentietreinconducteur ="3x Politieautos (100%)";
 //3 Politiebureaus
 var Achtervolgingpersonenauto ="4x Politieautos (100%)</br>1x Politie Helikopter (100%)";
 var Vermistpersoon ="3x Politieautos (100%)</br>1x Politie Helikopter (100%)";
