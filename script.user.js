@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1.4
+// @version     0.1.5
 // @grant       none
 // ==/UserScript==
 
@@ -125,6 +125,7 @@ var Obstructionoftraffic ="1x Police Car (100%)";
 var Theftofpropertyfromvehicles ="1x Police Car (100%)";
 var AnimalAttack ="1x Police Car (100%)</br>1x Ambulance";
 var NoiseComplaint ="1x Police Car (100%)";
+var AggressivePassenger ="1x Police Car (100%)";
 //2 Police Stations
 var Rioter ="2x Police Cars (100%)";
 var WarrantStandby ="3x Police Cars (100%)</br>1x Police Helicopter(100%)";
