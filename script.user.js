@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1.5
+// @version     0.1.6
 // @grant       none
 // ==/UserScript==
 
@@ -30,6 +30,7 @@ var GasLeak = "1x Firetruck (100%)";
 var Wastebinfire = "1x Firetruck (100%)";
 var Treeonbikeway = "1x Firetruck (100%)";
 var CarbonMonoxideAlarm = "1x Firetruck (100%)";
+var PowerlineDown = "1x Firetruck (100%)";
 //2 Fire Station
 var Roomfire = "2x Firetrucks (100%)</br>1x Platform Truck (30%)";
 var Gardenshedfire = "2x Firetrucks (100%)";
@@ -159,7 +160,7 @@ function addInfo(missionName) {
     try{
     missionString += eval(missionName);
     }catch(err){
-        missionString = "Error loading vehicle </br>Please forward to developer: "+err;    }
+        missionString = "Error loading Vehicles. </br>Please forward to developer: "+err;    }
     info.innerHTML = "<h3>Required vehicles:</h3> "+missionString + "</br>";
 
      document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
