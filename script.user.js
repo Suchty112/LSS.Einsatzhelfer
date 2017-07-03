@@ -69,7 +69,7 @@ var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>1x Funkstreifen
 var Bürobrand ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>2x Drehleiter (100%)<br/>2x Rüstwagen (30%)<br/>1x GW-Atemschutz (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (30%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)";
 var LKWinSupermarkt ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>1x Drehleiter (70%)<br/> 1x Einsatzleitwagen 1 (100%)<br/>1x Feuerwehrkran (70%)<br/>1x Gerätekraftwagen (100%)<br/>1x MTW-TZ (100%)<br/>1x MzKW (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)";
 var GasunfallinWerkstatt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/> 1x Einsatzleitwagen 1 (100%)<br/>1x Rüstwagen (30%)<br/>1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)";
-var StrohballenqualmeninScheune ="5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Drehleiter (75%)<br/>1x GW-Atemschutz (100%)<br/>1x Schlauchwagen (50%)"
+var StrohballenqualmeninScheune ="5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Drehleiter (75%)<br/>1x GW-Atemschutz (100%)<br/>1x Schlauchwagen (50%)";
 //6 FW-Wachen
 var AufgerissenerÖltank ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Öl (100%)";
 var GroßeÖlspur ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>1x GW-Öl (75%)";
