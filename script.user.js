@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.3
+// @version     0.4
 // @grant       none
 // ==/UserScript==
 
@@ -108,6 +108,7 @@ var Koolmonoxidevrijgekomen ="1x Tankautospuits (100%)</br>1x OvD-B (50%)</br>1x
 var Lekkendegoederenwagon ="1x Tankautospuits (100%)</br>1x OvD-B (50%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)</br>1x Hulpverleningsvoertuig (100%)";
 var Drugslabaangetroffen ="1x Tankautospuits (100%)</br>1x OvD-B (50%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)</br>4x Politieauto (100%)</br>1x Officier van Dienst Politie (100%)";
 var Verkeersongevalmetgevaarlijkestoffen ="2x Politieauto's	(100%)</br>1x Tankautospuit (100%)</br>1x OvD-B	(100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>1x Waarschuwings- en Verkenningsdienst(50%)</br>1x HOVD(50%)</br>1x Commandowagen (50%)</br>1x Ambulance (100%)";
+var Brandintankstation ="4x Tankautospuiten (100%)<br/>1x Hulpverleningsvoertuig (30%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOvD (100%)<br/>1x Commandowagen (100%)<br/>1x Slangenwagen (100%)<br/>1x Adembeschermingsvoertuig (100%)<br/>1x Adviseurs Gevaarlijke Stoffen (50%)<br/>1x Waarschuwings- en Verkenningsdienst(50%)<br/>2x Politieautos (100%)";
 //12 Brandweerposten
 var Brandingaragebedrijf = "4x Tankautospuits (100%)</br>1x Hulpverleningsvoertuigs (30%)</br>1x OvD-B (100%)</br>1x Redvoertuig(100%)</br>1x Slangenwagen (100%)";
 var Bosbrand = "4x Tankautospuits (100%)</br>1x HOVD (100%)</br>1x OvD-B (100%)</br>1x Commandowagen(10%)</br>1x Slangenwagen (100%)";
@@ -228,8 +229,8 @@ function addInfo(missionName) {
     try{
     missionString += eval(missionName);
     }catch(err){
-        missionString = "Fout bij het laden voertuigen </br>Geef dan ook aan ontwikkelaars: "+err;    }
-    info.innerHTML = "<h3>vereiste voertuigen:</h3> "+missionString + "</br>";
+        missionString = "Fout bij het laden van de Voertuigen. </br>Gelieve het volgende door te geven aan de ontwikkelaars: "+err;    }
+    info.innerHTML = "<h3>Benodigde Voertuigen:</h3> "+missionString + "</br>";
 
      document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
 
