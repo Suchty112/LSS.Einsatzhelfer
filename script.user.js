@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.2.8
+// @version     1.2.9
 // @grant       none
 // ==/UserScript==
 
@@ -35,7 +35,6 @@ var BrennendeHecke = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var ÄsteaufFahrbahn = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var UmherfliegendesBaumaterial = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BaumaufRadweg = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-//var Kabeldiebstahl = "2x Funkstreifenwagen (100%) </br> 1x Polizeihubschrauber (100%)";
 //2 FW-Wache
 var Wohnwagenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennenderLKW ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
@@ -60,7 +59,6 @@ var Garagenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var KellerunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var FeuerinEinfamilienhaus ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen 1 (70%)</br>1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
 var TiefgarageunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-//var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennendeTrafostation ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)<br/>1x FuStW (100%)";
 var Gasgeruch ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Dekon P (30%)</br>1x GW-Messtechnik (30%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Gefahrgut (30%)</br>1x FuStW</br>1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (40%)";
 //5 FW-Wachen
@@ -71,6 +69,7 @@ var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifen
 var Bürobrand ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>2x Rüstwagen (30%)</br>1x GW-Atemschutz (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (40%)";
 var LKWinSupermarkt ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (70%)</br> 1x Einsatzleitwagen 1 (100%)</br>1x Feuerwehrkran (70%)</br>1x Gerätekraftwagen (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
 var GasunfallinWerkstatt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Einsatzleitwagen 1 (100%)</br>1x Rüstwagen (30%)</br>1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (40%)";
+var StrohballenqualmeninScheune ="5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Drehleiter (75%)<br/>1x GW-Atemschutz (100%)<br/>1x Schlauchwagen (50%)"
 //6 FW-Wachen
 var AufgerissenerÖltank ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Öl (100%)";
 var GroßeÖlspur ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Öl (75%)";
@@ -83,12 +82,11 @@ var Chlorgasaustritt ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x GW-Ate
 var VerkehrsunfallmitLinienbus ="unterschieden wird in klein(bis 5 Patienten) - groß (bis 10 Patienten)</br>2 oder 5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1 oder 2x Rüstwagen (100%)</br>1 oder 2x Einsatzleitwagen 1</br>0 oder 1x Einsatzleitwagen 2 (100%)</br>0 oder 1x GW-Öl (100%)</br>0 oder 1x Feuerwehrkran (100%)</br> 2 oder 4x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (20 oder 40%)";
 var PfeffersprayinSchule ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Messtechnik (50%)</br>3x Funkstreifenwagen</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (10%)";
 //7 FW-Wachen
-//var PersonhinterTür ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennendeLok ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (50%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)</br>1x GW-Atemschutz (30%)</br>1x Schlauchwagen (100%)";
 var Flächenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen 1 (20%)</br>2x Funkstreifenwagen (100%)";
 var MittlererFeldbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen 1 (50%)";
 var BrennendesReetdachhaus ="5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz (30%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (50%)";
-var Scheunenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Atemschutz (25%)";
+var Scheunenbrand ="6x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Atemschutz (25%)<br/>1x Schlauchwagen (60%)";
 // 8 FW-Wachen
 var AusgedehnteÖlspur = "6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Öl (100%)</br>2x Funkstreifenwagen (100%)";
 var BrennenderBus = "5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (75%)</br>2x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (30%)";
@@ -107,7 +105,6 @@ var Baumaschineumgestürzt ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x 
 //11 FW-Wachen
 var Tankstellenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)</br>1x GW-Gefahrgut (70%)</br>1x GW-Messtechnik (80%)";
 var LKWAuffahrunfall ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (75%)</br>1x GW-Öl (25%)</br>1x GW-Gefahrgut (10%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (70%)";
-//var GefahrgutLKWverunglückt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (???%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (???%)</br>1x GW-Gefahrgut (100%)</br>1x GW-Messtechnik (???%)</br>1x DEkon P (???%)</br>2x Funkstreifenwagen (100%)";
 //12 FW-Wachen
 var BrandinWerkstatt = "4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)";
 var BewusstloserKranführer = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Höhenrettung (100%)</br>1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)";
@@ -224,7 +221,6 @@ var Wirbelsäulenverletzung ="1x Rettungstransportwagen (100%)</br>1x Notarztein
 var SturzausHöhe ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (50%)";
 var Stromschlag ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)/Rettungshubschrauber (50%)";
 //1 Polizei Wache
-//var Küchenbrand ="1x Funkstreifenwagen (100%)";
 var Ladendiebstahl ="1x Funkstreifenwagen (100%)";
 var Taschendiebstahl ="1x Funkstreifenwagen (100%)";
 var Metalldiebstahl ="1x Funkstreifenwagen (100%)";
@@ -295,7 +291,7 @@ function addInfo(missionName) {
     try{
     missionString += eval(missionName);
     }catch(err){
-        missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;    }
+        missionString = "Fehler beim Laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;    }
     info.innerHTML = "<h3>Benötigte Fahrzeuge:</h3> "+missionString + "</br>";
 
      document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
@@ -313,7 +309,7 @@ var longname = missionname;
        }
     }
     var shortendname = short[0].trim().replace(/\s/g,'').replace(/[(]/g,'').replace(/[)]/g,'').replace(/[-]/g,'').replace("Brandmeldeanlage","");
-    if(shortendname === "Volkslauf"||shortendname === "Dorf/Stadtfest"||shortendname === "BrandsicherheitswachdienstimTheater"||shortendname === "BrandsicherheitswachebeiVolksfest"||shortendname === "AngemeldeteDemonstration"||shortendname === "AbsicherungMusikumzug"||shortendname === "AbsicherungRadrennen"||shortendname === "FeuerprobealarmanSchule"||shortendname === "EntschärfungvonWeltkriegsbombe"||shortendname === "Verkehrsüberwachung"||shortendname === "AbsicherungRockkonzert"||shortendname === "Schwertransport" || shortendname ==="HasentreffeninOstereistedt"){
+    if(shortendname === "Volkslauf"||shortendname === "Dorf/Stadtfest"||shortendname === "BrandsicherheitswachdienstimTheater"||shortendname === "BrandsicherheitswachebeiVolksfest"||shortendname === "AngemeldeteDemonstration"||shortendname === "AbsicherungMusikumzug"||shortendname === "AbsicherungRadrennen"||shortendname === "FeuerprobealarmanSchule"||shortendname === "EntschärfungvonWeltkriegsbombe"||shortendname === "Verkehrsüberwachung"||shortendname === "AbsicherungRockkonzert"||shortendname === "Schwertransport" || shortendname ==="HasentreffeninOstereistedt" || shortendname ==="FußballBundesligaRisikospiel"){
      return "nope";
     }
     return shortendname;
