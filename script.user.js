@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.2.9
+// @version     1.3
 // @grant       none
 // ==/UserScript==
 
@@ -113,6 +113,7 @@ var Fassadenteiledrohenzufallen = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)<b
 var BeschädigterDachbereich = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (20%)<br/>1x Drehleiter (50%)<br/>1x Funkstreifenwagen (100%)";
 var VerletztePersonaufHochspannungsmast = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (100%)<br/>1x Drehleiter (20%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (80%) oder<br/>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (100%)";
 var BeschädigterKesselwagen = "10x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x Drehleiter (100%)<br/>1x Dekon P (100%)<br/>1x GW-Gefahrgut(100%)<br/>1x GW-Messtechnik (100%)<br/>3x Funkstreifenwagen (100%)<br/>1x GKW";
+var AbgestürzterKletterer = "2x Löschfahrzeuge (100%)</br>1x GW-Höhenrettung (50%)</br>1x Funkstreifenwagen (100%)</br>1x Einsatzleitwagen 1</br>1x Drehleiter (75%)</br>1x Rettungstransportwagen (100%)1x Notarzteinsatzfahrzeug (90%)/1x Rettungshubschrauber (50%)"; 
 //13 FW-Wachen
 var Sporthallenbrand ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>2x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (30%)<br/>1x Schlauchwagen (30%)<br/>1x GW-Atemschutz (50%)";
 var LeckinChemikalientank ="8x Löschfahrzeug/Tanklöschfahrzeug (100%)<br/>2x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x Schlauchwagen (20%)<br/>1x GW-Atemschutz (100%)<br/>1x GW-Öl (50%)<br/>2x GW-Messtechnik (100%)<br/>1x GW-Gefahrgut (100%)<br/>1x Dekon P (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (15%)";
