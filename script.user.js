@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.4
+// @version     0.5
 // @grant       none
 // ==/UserScript==
 
@@ -165,6 +165,7 @@ var Hittekramp ="1x Ambulance (100%)";
 var Hoofdwond ="1x Ambulance (100%)";
 var Benauwdheid ="1x Ambulance (100%)";
 var Valvantrap ="1x Ambulance (100%)";
+var Onwelwording ="1x Ambulance (100%)";
 //2 Ambulancestandplaatsen
 var Ontwrichting = "1x Ambulance (100%)";
 var Hoofdletsel = "1x Ambulance (100%)";
