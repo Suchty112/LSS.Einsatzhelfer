@@ -11,7 +11,7 @@ Bis zur Intigrität in den [LSS-ManagerV3](https://github.com/LSS-Manager/lss-ma
 
 0.1.7
 
-Parole Violation added
+- Parole Violation added
 
 
 0.1.6
