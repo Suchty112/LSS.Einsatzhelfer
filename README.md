@@ -1,6 +1,6 @@
-# LSS.Einsatzhelfer
-Hier findet ihr den Einsatzhelfer von DrFussel aus dem LSS-Forum.
-Bis zur Intigrität in den [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) findet ihr ihn hier. Auch danach werde ich ihn natürlich noch weiter updaten sollte es beim LSSM verzögerungen geben mit den neuen Einsätzen.
+# LSS Missionhelper
+Here you can find DrFussel's Missionhelper from the LSS forum.
+He is in the [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) in it, but as a standalone it will also pass it on. Even after that, I will of course continue to update it should at LSSM delays give the new missions.
 
 
 ## Changelog
