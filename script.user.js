@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.5
+// @version     0.6
 // @grant       none
 // ==/UserScript==
 
@@ -22,7 +22,6 @@ var Brandendhooi = "1x Tankautospuit (100%)";
 var Brandendetraktor = "1x Tankautospuit (100%)";
 var Brandendebromfiets = "1x Tankautospuit (100%)";
 var Boomopdeweg = "1x Tankautospuit (100%)";
-var Bosbrand = "1x Tankautospuit (100%)</br>1x Slangenwagen (10%)";
 var Brandendedixi = "1x Tankautospuit (100%)";
 var Brandendestruik = "1x Tankautospuit (100%)";
 var Brandendeaanhangwagen = "1x Tankautospuit (100%)";
@@ -51,18 +50,11 @@ var Parkeerterreinonderwater = "1x Tankautospuit (100%)</br> 1x Slangenwagen (20
 var Koeinsloot = "1x Tankautospuit (100%)</br> 1x Hulpverleningsvoertuig (10%)";
 var Koeingierput = "1x Tankautospuit (100%)</br> 1x Hulpverleningsvoertuig (10%)";
 var Lekkendewoonboot = "1x Tankautospuit (100%)</br> 1x Hulpverleningsvoertuig (10%)";
-var Brandinwoonwagen = "1x Tankautospuit (100%)";
-var Brandendevrachtwagen = "1x Tankautospuit (100%)";
-var Brandinwoonkamer = "1x Tankautospuit (100%)</br> 1x Redvoertuig (10%)";
 //2 Brandweerposten
-var Brandintuinhuis = "1x Tankautospuits (100%)";
-var Heidebrand = "2x Tankautospuits (100%)";
 var Brandinslaapkamer = "2x Tankautospuits (100%)</br>1x OvD-B (100%)</br> 1x Redvoertuig (100%)";
 //3 Brandweerposten
 var Brandinkelder = "3x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x HOVD (50%)</br>1x Slangenwagen (10%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
 var Schoorsteenbrand = "1x Tankautospuit (100%) </br> 1x Redvoertuig (100%)";
-var Brandincafetaria = "1x Tankautospuits (100%) </br> 1x Redvoertuig (10%)";
-var Verkeersongevalmetbeknelling ="1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (10%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
 var Brandendbushokje ="1x Tankautospuit (100%)";
 var Vrachtwagengekanteld ="1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (70%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
 var Brandinvakantiewoning ="2x Tankautospuit (100%)</br>1x Redvoertuig (80%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)";
@@ -71,8 +63,6 @@ var Brandinwoonkamer ="2x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Redv
 var Brandendevrachtwagen ="2x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Slangenwagen (10%)";
 var Brandinwoonwagen ="2x Tankautospuits (100%)</br>1x OvD-B (100%)</br>1x Redvoertuig (80%)</br> 1x Ambulance(100%)";
 var Brandinsupermarkt ="3x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Slangenwagen (30%)</br>1x HOVD (50%)</br>1x Redvoertuig (100%)</br>1x Politieauto (100%)";
-var Persoonaangereden ="1x Tankautospuits (100%) </br>1x Hulpverleningsvoertuig (30%)";
-var Brandinlandbouwschuur ="2x Tankautospuits (100%)";
 var Persoonaangereden ="2x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x Slangenwagen (10%)";
 var Brandinkeuken = "3x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x HOVD (50%)</br>1x Redvoertuig (100%)";
 var Parkeergarageonderwater ="1x Tankautospuit (100%)</br>1x Slangenwagen (40%)";
@@ -80,12 +70,13 @@ var Kelderonderwater ="1x Tankautospuit (100%)</br>1x Slangenwagen (40%)";
 var Gevaarlijkhangendetak ="1x Tankautospuit (100%)</br>1x Redvoertuig (50%)";
 var Boomopdak ="1x Tankautospuit (100%)</br>1x Redvoertuig (60%)";
 var Losgewaaidedakbedekking ="1x Tankautospuit (100%)</br>1x Redvoertuig (80%)";
+var Brandintuinhuis ="2x Tankautospuiten (100%)</br>1x OvD-B (100%)</br>1x Redvoertuig (10%)";
+var Brandinwerkplaats ="2x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x OvD-B (100%)</br>1x Adembeschermingsvoertuig (10%)</br>1x Politieauto (100%)";
 //5 Brandweerposten
 var Machinebrand ="3x Tankautospuits (100%)</br> 1x Hulpverleningsvoertuig (100%)</br> 1x OvD-B (100%)</br>1x Adembeschermingsvoertuig (20%)</br>1x Slangenwagen (30%)";
 var BuildingCollapse ="2x Tankautospuits (100%)</br>2x Redvoertuigs (100%)</br>2x OvD-Bs (100%)</br>2x Hulpverleningsvoertuigs (100%)</br>1x Mobile Command (100%)</br>min. 1x Ambulance (100%)";
 var Heidebrand ="3x Tankautospuits (100%)</br>1x HOVD</br> 1x OvD-B (100%)</br>1x Slangenwagen (100%)";
 //6 Brandweerposten
-var Brandenddak ="3x Tankautospuits (100%) </br>1x OvD-B (100%)</br>1x HOVD (50%)</br>1x Redvoertuig (100%)</br>1x Politieauto (100%)";
 var Schoorsteenbrandwoningmetrietenkap ="2x Tankautospuits (100%)</br>1x OvD-B (100%)</br>1x Redvoertuig (100%)";
 var Persoonbekneldonderboom ="1x Tankautospuits (100%)</br> 1x Hulpverleningsvoertuig (40%)</br> 1x OvD-B (100%)</br>1x Ambulance";
 var Kleinvliegtuigneergestort ="2x Tankautospuit (100%)</br> 1x Hulpverleningsvoertuig (100%)</br>1x OvD-B (100%)</br>1x HOVD (10%)</br>min. 1x Ambulance (100%)</br>2x Politieauto (100%)";
@@ -96,7 +87,6 @@ var Brandinlandbouwschuur ="3x Tankautospuit (100%)</br>1x Redvoertuig (100%)</b
 //7 Brandweerposten
 var Brandincafetaria ="3x Tankautospuits (100%)</br>1x Redvoertuig (100%)</br>1x HOVD (50%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)</br>1x Politie Autos (100%)";
 //8 Brandweerposten
-var Brandinziekenhuis ="2x Tankautospuits (100%)</br>1x Redvoertuig(50%)</br>1x OvD-B (100%)</br>1x HVOD (10%)</br>1x Commandowagen (10%)";
 //10 Brandweerposten
 var Ongevalmettreinenpersonenauto ="1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (90%)</br>1x OvD-B (100%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
 var Brandinziekenhuis ="3x Tankautospuit (100%)</br>2x Redvoertuigs (100%)</br>1x OvD-B (100%)</br>1x HVOD (10%)</br>1x Adembeschermingsvoertuig (50%)</br>1x Commandowagen (90%)</br>1x Ambulance (100%)";
@@ -108,7 +98,7 @@ var Koolmonoxidevrijgekomen ="1x Tankautospuits (100%)</br>1x OvD-B (50%)</br>1x
 var Lekkendegoederenwagon ="1x Tankautospuits (100%)</br>1x OvD-B (50%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)</br>1x Hulpverleningsvoertuig (100%)";
 var Drugslabaangetroffen ="1x Tankautospuits (100%)</br>1x OvD-B (50%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)</br>4x Politieauto (100%)</br>1x Officier van Dienst Politie (100%)";
 var Verkeersongevalmetgevaarlijkestoffen ="2x Politieauto's	(100%)</br>1x Tankautospuit (100%)</br>1x OvD-B	(100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>1x Waarschuwings- en Verkenningsdienst(50%)</br>1x HOVD(50%)</br>1x Commandowagen (50%)</br>1x Ambulance (100%)";
-var Brandintankstation ="4x Tankautospuiten (100%)<br/>1x Hulpverleningsvoertuig (30%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOvD (100%)<br/>1x Commandowagen (100%)<br/>1x Slangenwagen (100%)<br/>1x Adembeschermingsvoertuig (100%)<br/>1x Adviseurs Gevaarlijke Stoffen (50%)<br/>1x Waarschuwings- en Verkenningsdienst(50%)<br/>2x Politieautos (100%)";
+var Brandintankstation ="4x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (30%)</br>1x Redvoertuig (100%)</br>1x OvD-B (100%)</br>1x HOvD (100%)</br>1x Commandowagen (100%)</br>1x Slangenwagen (100%)</br>1x Adembeschermingsvoertuig (100%)</br>1x Adviseurs Gevaarlijke Stoffen (50%)</br>1x Waarschuwings- en Verkenningsdienst(50%)</br>2x Politieautos (100%)";
 //12 Brandweerposten
 var Brandingaragebedrijf = "4x Tankautospuits (100%)</br>1x Hulpverleningsvoertuigs (30%)</br>1x OvD-B (100%)</br>1x Redvoertuig(100%)</br>1x Slangenwagen (100%)";
 var Bosbrand = "4x Tankautospuits (100%)</br>1x HOVD (100%)</br>1x OvD-B (100%)</br>1x Commandowagen(10%)</br>1x Slangenwagen (100%)";
@@ -153,7 +143,8 @@ var Horrorclowngespot ="2x Politieautos (100%)";
 var Brandinkantoorpand ="8x Tankautospuits (100%)</br>2x OvD-Bs (100%)</br>2x Redvoertuigs (100%)</br>1x Adembeschermingsvoertuig (100%)</br>1x Slangenwagen (100%)</br>1x Waarschuwings- en Verkenningsdienst(100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>1x HVOD (100%)";
 var Kettingbotsing ="12x Tankautospuits (100%)</br>3x OvD-Bs (100%)</br>3x Hulpverleningsvoertuigs (100%)</br>2x HOVD's (100%)</br>5x Politieauto's</br> min. 8x Ambulance(100%)";
 var Brandinopslagloods ="16x Tankautospuit (100%)</br>4x Redvoertuigs (100%)</br>4x Hulpverleningsvoertuig (100%)</br>2x HVOD's (100%)</br>4x OvD-B (100%)</br>3x Slangenwagen(100%)</br>2x Waarschuwings- en Verkenningsdienst(100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>1x Adembeschermingsvoertuig (100%)";
-//1 Ambulancestandplaats 
+var Vliegtuigneergestort ="11x Tankautospuiten (100%)</br>1x Redvoertuig (100%)</br>5x Hulpverleningsvoertuigen (100%)</br>1x Slangenwagen (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>3x OvD-Bs (100%)</br>2x HOVDs (100%)</br>2x Commandowagen (100%)</br>14x Politieautos (100%)</br>min. 55 Ambulances</br>min. 1x MMT-Auto (25%)";
+//1 Ambulancestandplaats
 var Overdosisalcohol ="1x Ambulance (100%)";
 var Bloedneus ="1x Ambulance (100%)";
 var Gevallenpersoon ="1x Ambulance (100%)";
@@ -166,11 +157,10 @@ var Hoofdwond ="1x Ambulance (100%)";
 var Benauwdheid ="1x Ambulance (100%)";
 var Valvantrap ="1x Ambulance (100%)";
 var Onwelwording ="1x Ambulance (100%)";
+var Overdosisdrugs ="1x Politieauto </br>1x Ambulance (100%)";
 //2 Ambulancestandplaatsen
 var Ontwrichting = "1x Ambulance (100%)";
 var Hoofdletsel = "1x Ambulance (100%)";
-var Nekwervelletsel = "1x Ambulance (100%)";
-var Hoofdletsel ="1x Ambulance (100%)";
 //3 Ambulancestandplaatsen
 var Pijnopdeborst ="1x Ambulance (100%)";
 var Astmaaanval ="1x Ambulance (100%)";
@@ -193,9 +183,10 @@ var Winkeldiefstal ="1x Politieauto (100%)";
 var Tasjesdief ="1x Politieauto (100%)";
 var Bestuurderonderinvloed ="1x Politieauto (100%)";
 var Verwardpersoon ="1x Politieauto (100%)";
+var Vernielingbushokje ="1x Politieauto (100%)";
+var Buspassagierweigerttebetalen ="1x Politieauto (100%)";
 //2 Politiebureaus
 var Huiselijkgeweld ="1x Politieautos (100%)";
-var Overvalwinkel ="2x Politieautos (100%)";
 var Assistentietreinconducteur ="3x Politieautos (100%)";
 //3 Politiebureaus
 var Achtervolgingpersonenauto ="4x Politieautos (100%)</br>1x Politie Helikopter (100%)";
@@ -208,7 +199,8 @@ var Vechtpartijincafé ="4x Politieautos (100%)</br>1x Officier van Dienst Polit
 var Steekincident ="3x Politieautos (100%)</br>1x Officier van Dienst Politie (100%)</br>1x Ambulance (100%)</br>1x MMT-Auto (100%)";
 var Plofkraak ="8x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)</br>1x Politie Helikopter (100%)</br>1x OvD-B (100%)</br>1x Tankautospuit (100%)";
 var Invalinwoning ="3x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)";
-//1 Waterongevallenbestrijding 
+var Schietincident ="5x Politieautos (100%)</br>1x OvD-P (100%)</br>min. 1x Ambulance (100%)</br>1x MMT-Auto (100%)";
+//1 Waterongevallenbestrijding
 var Bergenobjectuitwatervoorpolitie ="1x Tankautospuit (100%)</br>1x Waterongevallenvoertuig (100%)</br>2x Politieautos (100%)";
 var Verkeersongevalmetbeknelling ="1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuigs(40%)</br>1x Waterongevallenvoertuig (20%)</br>2x Politieautos (100%)</br>1x OvD-B (100%)</br>1x Ambulance (100%)";
 var Personenautoinsloot ="1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuigs(50%)</br>1x Waterongevallenvoertuig (80%)</br>2x Politieautos (100%)</br>1x OvD-B (100%)</br>min. 1x Ambulance (100%)";

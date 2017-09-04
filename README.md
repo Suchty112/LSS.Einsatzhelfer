@@ -1,4 +1,4 @@
-# LSS.Einsatzhelfer Meldkamerspel
+# LSS MeldingHelper Meldkamerspel
 Hier vindt u DrFussel's MeldingHelper van het LSS forum.
 hij is in de [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) daarin, maar als zelfstandige zal het het ook doorgeven. Zelfs daarna zal ik natuurlijk blijven updaten, als bij LSSM vertragingen de nieuwe missies moeten geven.
 
