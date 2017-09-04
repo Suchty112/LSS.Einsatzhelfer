@@ -4,6 +4,14 @@ Er ist in dem [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) dri
 
 
 ## Changelog
+1.4
+
+- Letzten Mission hinzugefügt
+
+1.3
+
+- Abgestürzer Kletterer
+
 1.2.8
 
 -  Hilflose Person im Wasser added
@@ -22,4 +30,3 @@ Er ist in dem [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) dri
 
 1.2.5.1
 - Bugfixxes bei einigen Einsätzen
-
