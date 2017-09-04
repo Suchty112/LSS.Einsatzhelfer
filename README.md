@@ -1,6 +1,6 @@
 # LSS.Einsatzhelfer Meldkamerspel
-Hier findet ihr den Einsatzhelfer von DrFussel aus dem LSS-Forum.
-Bis zur Intigrität in den [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) findet ihr ihn hier. Auch danach werde ich ihn natürlich noch weiter updaten sollte es beim LSSM verzögerungen geben mit den neuen Einsätzen.
+Hier vindt u DrFussel's MeldingHelper van het LSS forum.
+hij is in de [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) daarin, maar als zelfstandige zal het het ook doorgeven. Zelfs daarna zal ik natuurlijk blijven updaten, als bij LSSM vertragingen de nieuwe missies moeten geven.
 
 
 ## Changelog
