@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1.7
+// @version     0.1.8
 // @grant       none
 // ==/UserScript==
 
@@ -41,6 +41,7 @@ var ManholeFire = "2x Firetrucks (100%)</br> 1x Battalion Chief (100%)";
 var SmokeinCabin = "2x Firetrucks (100%)</br> 1x ARFF (100%)";
 var BrakingOverheat = "1x Firetruck (100%)</br> 1x ARFF (100%)</br> 1x Battalion Chief (100%)";
 var EngineFire = "1x Firetruck (100%)</br> 3x ARFF (100%)</br> 1x Battalion Chief (100%)";
+var SmokeInvestigation ="1x Firetruck (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)";
 //3 Fire Station
 var Basementfire = "3x Firetrucks (100%)</br> 1x Battalion Chief (90%)";
 var Chimneyfire = "1x Firetruck (100%) </br> 1x Platform Truck (100%) </br>1x Battalion Chief (100%)";
@@ -68,6 +69,7 @@ var VehicleAccidentEntrapment ="2x Firetrucks (100%)</br>2x Heavy Rescues (100%)
 var Burninglocomotive ="4x Firetrucks (100%)</br>1x Heavy Rescue (50%)</br>1x Battalion Chief (100%)</br>1x Mobile Air (30%)</br>1x Water Tanker (100%)";
 //10 Fire Station
 var LargeAircraftCrash ="3x Firetrucks (100%)</br>4x ARFF (100%)</br>1x Battalion Chief (100%)</br>5x Police Cars (100%)</br>min. 1x Ambulance (100%) max. 25 Ambulance";
+var DrugLabFire ="4x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chief (100%)</br>2x Hazmat (100%)</br>4x Police Cars (100%)";
 //11 Fire Station
 var Gasstationfire ="4x Firetrucks (100%)</br>2x Heavy Rescues (30%)</br>1x Platform Trucks (100%)</br>1x Battalion Chief (100%)</br>1x Mobile Command (100%)</br>1x Hazmat (70%)</br>1x Mobile Air(30%)";
 var Dangerousgoodstruckaccident ="3x Firetrucks (100%)</br>1x Heavy Rescue (50%)</br>1x Battalion Chief (100%)</br>1x Hazmat (100%)";
@@ -107,6 +109,7 @@ var Nosebleed ="1x Ambulance (100%)";
 var Fallenperson ="1x Ambulance (100%)";
 var Diabeticproblems  ="1x Ambulance (100%)";
 var FoodPoisoning ="1x Ambulance (100%)";
+var AllergicReaction ="1x Ambulance (100%)";
 //2 Rescue Stations
 var Anaphylaxis ="1x Ambulance (100%)";
 var Overdose ="1x Ambulance (100%)</br>1x Police Car (100%)";
@@ -128,6 +131,7 @@ var AnimalAttack ="1x Police Car (100%)</br>1x Ambulance";
 var NoiseComplaint ="1x Police Car (100%)";
 var AggressivePassenger ="1x Police Car (100%)";
 var ParoleViolation ="1x Police Car (100%)";
+var StolenCreditCard ="1x Police Car (100%)";
 //2 Police Stations
 var Rioter ="2x Police Cars (100%)";
 var WarrantStandby ="3x Police Cars (100%)</br>1x Police Helicopter(100%)";
@@ -141,12 +145,17 @@ var Shooting ="7x Police Cars (100%)</br>min. 1 Ambulance (100%)";
 //6 Police Stations
 var OfficerDown ="6x Police Cars (100%)</br>1x Ambulance (100%)";
 var Stabbing ="5x Police Cars (100%)</br>min. 1x Ambulance (100%)";
+var Searchofavehicle ="2x Police Cars (100%)</br>1x K9-Unit (100%)";
+var SmallViolentProtest ="'4x Police Cars (100%)</br>1x K9-Unit (100%)";
+var DrugDeal ="4x Police Cars (100%)</br>1x K9-Unit (100%)";
 //7 Police Stations
-var PrisonerEscape ="10x Police Cars (100%)</br>1x Police Helicopter (100%)";
+var PrisonerEscape ="10x Police Cars (100%)</br>1x Police Helicopter (100%)</br>1x K9-Unit (100%)";
+var MediumViolentProtest ="7x Police Cars (100%)</br>1x K9-Unit (100%)</br>1x Police Helicopter (100%)";
 //8 Police Stations
 var HostageTaken ="4x Police Cars (100%)</br>2x SWAT Cars (100%)</br>1x Ambulance (100%)";
 var DrugWarrant ="1x Police Cars (100%)</br>1x SWAT Car (100%)";
 var BankRobbery ="6x Police Cars (100%)</br>2x SWAT Cars (100%)";
+var GasStationRobbery ="4x Police Cars (100%)</br>1x Police Helicopter (100%)</br>2x Swat Cars (100%)";
 //9 Police Station
 var ActiveShooter ="4x Police Cars (100%)</br>1x Police Helicopter (100%)</br>4x SWAT Cars (100%)</br>min. 1x Ambulance (100%)";
 var HighRiskWarrant ="1x Police Cars (100%)</br>3x SWAT Cars (100%)";
