@@ -117,6 +117,7 @@ var BeschädigterDachbereich = "2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwage
 var VerletztePersonaufHochspannungsmast = "2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (100%)<br/>1x Drehleiter (20%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (80%) oder<br/>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (100%)";
 var BeschädigterKesselwagen = "10x Löschfahrzeuge (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x Drehleiter (100%)<br/>1x Dekon P (100%)<br/>1x GW-Gefahrgut(100%)<br/>1x GW-Messtechnik (100%)<br/>3x Funkstreifenwagen (100%)<br/>1x GKW";
 var AbgestürzterKletterer = "2x Löschfahrzeuge (100%)</br>1x GW-Höhenrettung (50%)</br>1x Funkstreifenwagen (100%)</br>1x Einsatzleitwagen 1</br>1x Drehleiter (75%)</br>1x Rettungstransportwagen (100%)1x Notarzteinsatzfahrzeug (90%)/1x Rettungshubschrauber (50%)";
+var VerunglückterFallschirmspringer ="3x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Drehleiter (100%)</br>1x GW-Höhenrettung (100%)</br>1x Retttungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)";
 //13 FW-Wachen
 var Sporthallenbrand ="7x Löschfahrzeuge (100%)<br/>2x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (30%)<br/>1x Schlauchwagen (30%)<br/>1x GW-Atemschutz (50%)";
 var LeckinChemikalientank ="8x Löschfahrzeuge (100%)<br/>2x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x Schlauchwagen (20%)<br/>1x GW-Atemschutz (100%)<br/>1x GW-Öl (50%)<br/>2x GW-Messtechnik (100%)<br/>1x GW-Gefahrgut (100%)<br/>1x Dekon P (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (15%)";
@@ -216,7 +217,6 @@ var SchwangereinNotsituation ="1x Rettungstransportwagen (100%)<br/>1x Notarztei
 var BeginnendeGeburt ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)";
 var VaginaleBlutung ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (20%)";
 var Gehirnerschütterung ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (20%)";
-var VerunglückterFallschirmspringer ="1x Retttungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)";
 //7 Rettungswachen
 var AkuterHarnstau ="1x Rettungstransportwagen (100%)";
 var HarnleiterBlutung ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (20%)";
