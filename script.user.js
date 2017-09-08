@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1.8
+// @version     0.1.9
 // @grant       none
 // ==/UserScript==
 
@@ -31,6 +31,7 @@ var Wastebinfire = "1x Firetruck (100%)";
 var Treeonbikeway = "1x Firetruck (100%)";
 var CarbonMonoxideAlarm = "1x Firetruck (100%)";
 var PowerlineDown = "1x Firetruck (100%)";
+var ElevatorRescue = "1x Firetruck (100%)";
 //2 Fire Station
 var Roomfire = "2x Firetrucks (100%)</br>1x Platform Truck (30%)";
 var Gardenshedfire = "2x Firetrucks (100%)";
