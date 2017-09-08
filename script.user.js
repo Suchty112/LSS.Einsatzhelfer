@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.4
+// @version     1.41
 // @grant       none
 // ==/UserScript==
 
@@ -216,6 +216,7 @@ var SchwangereinNotsituation ="1x Rettungstransportwagen (100%)<br/>1x Notarztei
 var BeginnendeGeburt ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)";
 var VaginaleBlutung ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (20%)";
 var Gehirnerschütterung ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (20%)";
+var VerunglückterFallschirmspringer ="1x Retttungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)";
 //7 Rettungswachen
 var AkuterHarnstau ="1x Rettungstransportwagen (100%)";
 var HarnleiterBlutung ="1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (20%)";
