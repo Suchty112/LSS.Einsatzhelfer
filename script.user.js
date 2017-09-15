@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.41
+// @version     1.42
 // @grant       none
 // ==/UserScript==
 
@@ -124,6 +124,7 @@ var LeckinChemikalientank ="8x Löschfahrzeuge (100%)<br/>2x Rüstwagen (100%)<b
 var BrennendeesKleinflugzeug="8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2</br>1x Rüstwagen (100%)</br>1x Drehleiter (50%)</br>1x Schlauchwagen (80%)</br>1x GW-Öl (25%)</br>3x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)";
 //15 FW-Wachen
 var ParkdeckvollWassergelaufen ="1x Löschfahrzeug (100%)<br/>1x Schlauchwagen (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Öl (100%)<br/>2x Funkstreifenwagen (100%)";
+var ChemieunfallanSchule ="8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (80%)</br>1x Drehleiter (100%)</br>1x Dekon-P (50%)</br>1x GW-Atemschutz (50%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>min. 1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (60%)";
 //18 FW-Wachen
 var Lagerhallenbrand ="5x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>2x Drehleiter (100%)<br/>1x Schlauchwagen (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Atemschutz (100%)<br/>1x GW-Messtechnik (100%)<br/>1x Feuerwehrkran (15%)<br/>2x Funkstreifenwagen (100%)<br/>1x GKW (100%)<br/>1x MTW-TZ (100%)<br/>1x LKW K9 (100%)<br/>1x BRmG R (100%)<br/>1x Anh DLE (100%)<br/>Notarzteinsatzfahrzeug (20%)";
 var FeuerimLagerraum ="2x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Messtechnik (20%)";
