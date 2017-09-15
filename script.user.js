@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.1.9
+// @version     0.2
 // @grant       none
 // ==/UserScript==
 
@@ -80,6 +80,8 @@ var CommercialFire ="6x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x H
 var HighRiseFire ="5x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>1x Heavy Rescue (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>1x Water Tanker (100%)</br>2x Mobile Air(50%)</br> min. 4x Ambulance";
 //15 Fire Station
 var FireinanOfficeBuilding ="10x Firetrucks (100%)</br>4x Platform Trucks (100%)</br>2x Heavy Rescue (100%)</br>2x Battalion Chiefs (100%)</br>1x Mobile Command (100%)</br>1x Water Tanker (100%)</br>1x Mobile Air(50%)</br>3x Police Cars</br> min. 1x Ambulance";
+//20 Fire Station
+var WarehouseFire ="20x Firetrucks (100%)</br>2x Battalion Chief Unit (100%)</br>6x Platform Trucks (100%)</br>4x Heavy Rescue (100%)4x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars (100%)";
 //Temporär:
 //Winter
 var Theftatchristmasmarket ="1x Police Car (100%)";
