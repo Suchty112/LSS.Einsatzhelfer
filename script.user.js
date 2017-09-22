@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.2.1
+// @version     0.2.2
 // @grant       none
 // ==/UserScript==
 
@@ -191,7 +191,7 @@ var longname = missionname;
        }
     }
     var shortendname = short[0].trim().replace(/\s/g,'').replace(/[(]/g,'').replace(/[)]/g,'').replace(/[-]/g,'').replace("Brandmeldeanlage","");
-    if(shortendname === "Concert"||shortendname === "SoccerGame"||shortendname === "BaseballGame"){
+    if(shortendname === "Concert"||shortendname === "SoccerGame"||shortendname === "BaseballGame"||shortendname === "AssassinationThreat"){
      return "nope";
     }
     return shortendname;
