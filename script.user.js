@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.8
+// @version     0.9
 // @grant       none
 // ==/UserScript==
 
@@ -209,6 +209,7 @@ var Personenautoinsloot ="1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuigs
 var Paardinsloot ="1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuigs(20%)</br>1x Waterongevallenvoertuig (10%)";
 var Eendverstriktinvisdraad ="1x Tankautospuit (100%)</br>1x Waterongevallenvoertuig (10%)";
 var Verlatenkinderfietslangswaterkant ="1x Tankautospuit (100%)</br>1x Waterongevallenvoertuig (10%)</br>1x Politieauto (100%)</br>1x OvD-B (100%)";
+var Zwemmervermist ="1x Tankautospuit (100%)</br>1x Redvoertuig (10%)</br>1x OvD-B (100%)</br>2x Waterongevallenvoertuig (100%)</br>1x Waterongevallenaanhangers (100%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)";
 //2 Waterongevallenbestrijding
 var Persoontewater ="1x Tankautospuit (100%)</br>1x Redvoertuig(50%)</br>2x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(100%)</br>1x Politieauto (100%)</br>1x OvD-B (100%)</br>1x Ambulance(100%)";
 var Personenautotewater ="1x Tankautospuit (100%)</br>1x Redvoertuig(50%)</br>1x Hulpverleningsvoertuig(60%)</br>2x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(50%)</br>3x Politieauto (100%)</br>1x OvD-B (100%)</br>min. 1x Ambulance(100%)";
