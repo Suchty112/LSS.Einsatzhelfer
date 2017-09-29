@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.2.2
+// @version     0.3
 // @grant       none
 // ==/UserScript==
 
@@ -54,6 +54,7 @@ var Roadaccident ="1x Firetruck (100%)";
 var Burningsubstation ="2x Firetrucks (100%) </br>1x Battalion Chief (100%)</br>1x Police Car (100%)";
 var Garagefire ="2x Firetrucks (100%)";
 var MVARollover ="3x Firetrucks (100%)</br>2x Battalion Chiefs (100%)</br>1x Platform Truck (50%)</br>1x Heavy Resuce (100%)</br>2x Police Cars</br>min. 1x Ambulance(100%)";
+var TruckinHouseWall ="3x Firetrucks (100%)</br>1x Heavy Rescue (100%)";
 //5 Fire Station
 var Burningmachine ="3x Firetrucks (100%)</br> 1x Heavy Rescue (100%)</br> 1x Battalion Chief (100%)</br>1x Mobile Air (20%)</br>1x Water Tanker (30%)";
 var BuildingCollapse ="2x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chiefs (100%)</br>2x Heavy Rescues (100%)</br>1x Mobile Command (100%)</br>min. 1x Ambulance (100%)";
