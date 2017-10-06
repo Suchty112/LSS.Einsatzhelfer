@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.3
+// @version     0.4
 // @grant       none
 // ==/UserScript==
 
@@ -43,6 +43,7 @@ var SmokeinCabin = "2x Firetrucks (100%)</br> 1x ARFF (100%)";
 var BrakingOverheat = "1x Firetruck (100%)</br> 1x ARFF (100%)</br> 1x Battalion Chief (100%)";
 var EngineFire = "1x Firetruck (100%)</br> 3x ARFF (100%)</br> 1x Battalion Chief (100%)";
 var SmokeInvestigation ="1x Firetruck (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)";
+var BurningGarbageTruck ="2x Firetrucks";
 //3 Fire Station
 var Basementfire = "3x Firetrucks (100%)</br> 1x Battalion Chief (90%)";
 var Chimneyfire = "1x Firetruck (100%) </br> 1x Platform Truck (100%) </br>1x Battalion Chief (100%)";
