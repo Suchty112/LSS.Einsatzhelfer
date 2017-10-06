@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.5
+// @version     1.5.1
 // @grant       none
 // ==/UserScript==
 
@@ -84,6 +84,7 @@ var PersonunterBaumeingeklemmt ="1x Löschfahrzeug (100%)<br/>1x Funkstreifenwag
 var Chlorgasaustritt ="7x Löschfahrzeuge (100%)<br/>2x GW-Atemschutz (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Messtechnik (100%)<br/>1x GW-Gefahrgut (100%)<br/>4x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (60%)";
 var VerkehrsunfallmitLinienbus ="unterschieden wird in klein(bis 5 Patienten) - groß (bis 10 Patienten)<br/>2 oder 5x Löschfahrzeuge (100%)<br/>1 oder 2x Rüstwagen (100%)<br/>1 oder 2x Einsatzleitwagen 1<br/>0 oder 1x Einsatzleitwagen 2 (100%)<br/>0 oder 1x GW-Öl (100%)<br/>0 oder 1x Feuerwehrkran (100%)<br/> 2 oder 4x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (20 oder 40%)";
 var PfeffersprayinSchule ="2x Löschfahrzeuge (100%)<br/>1x GW-Messtechnik (50%)<br/>3x Funkstreifenwagen<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (10%)";
+var PersoninBaumaschineeingeklemmt ="2x Löschfahrzeuge (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)";
 //7 FW-Wachen
 var BrennendeLok ="4x Löschfahrzeuge (100%)<br/>1x Rüstwagen (50%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (10%)<br/>1x GW-Atemschutz (30%)<br/>1x Schlauchwagen (100%)";
 var Flächenbrand ="4x Löschfahrzeuge (100%)<br/>1x Schlauchwagen (20%)<br/> 1x Einsatzleitwagen 1 (20%)<br/>2x Funkstreifenwagen (100%)";
