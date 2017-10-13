@@ -35,7 +35,7 @@ var BrennendeHecke = "1x Löschfahrzeug (100%)";
 var ÄsteaufFahrbahn = "1x Löschfahrzeug (100%)";
 var UmherfliegendesBaumaterial = "1x Löschfahrzeug (100%)";
 var BaumaufRadweg = "1x Löschfahrzeug (100%)";
-var Ausgelöster Heimrauchmelder = "1x Löschfahrzeug (100%)";
+var AusgelösterHeimrauchmelder = "1x Löschfahrzeug (100%)";
 //2 FW-Wache
 var Wohnwagenbrand ="2x Löschfahrzeuge (100%)";
 var BrennenderLKW ="2x Löschfahrzeuge (100%)";
