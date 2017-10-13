@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.5.1
+// @version     1.5.2
 // @grant       none
 // ==/UserScript==
 
@@ -35,6 +35,7 @@ var BrennendeHecke = "1x Löschfahrzeug (100%)";
 var ÄsteaufFahrbahn = "1x Löschfahrzeug (100%)";
 var UmherfliegendesBaumaterial = "1x Löschfahrzeug (100%)";
 var BaumaufRadweg = "1x Löschfahrzeug (100%)";
+var Ausgelöster Heimrauchmelder = "1x Löschfahrzeug (100%)";
 //2 FW-Wache
 var Wohnwagenbrand ="2x Löschfahrzeuge (100%)";
 var BrennenderLKW ="2x Löschfahrzeuge (100%)";
