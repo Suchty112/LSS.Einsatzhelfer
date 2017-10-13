@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mel/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.1
+// @version     1.2
 // @grant       none
 // ==/UserScript==
 
@@ -197,6 +197,7 @@ var Achtervolgingpersonenauto ="4x Politieautos (100%)</br>1x Politie Helikopter
 var Vermistpersoon ="3x Politieautos (100%)</br>1x Politie Helikopter (100%)";
 //4 Police Station
 var Overvalwinkel ="2x Politieautos (100%)</br>1x Politie Helikopter (100%)";
+var Persoonvermist = "Hierbij wordt uitgegaan van het grootste gebruik:</br> 4x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br>1x Politie Helikopter (100 %)";
 //5 Politiebureaus
 var Inbraakinwoning ="1x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)</br>1x Politie Helikopter (100%)";
 var Vechtpartijincafé ="4x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)";
@@ -245,7 +246,7 @@ var longname = missionname;
        }
     }
     var shortendname = short[0].trim().replace(/\s/g,'').replace(/[(]/g,'').replace(/[)]/g,'').replace(/[-]/g,'').replace("Brandmeldeanlage","");
-    if(shortendname === "Voetbalwedstrijd"||shortendname === "Voetbalwedstrijd,risicowedstrijd"||shortendname === "Hardloopevenement"||shortendname === "Begeleidingorkest"||shortendname === "Begeleidingwielrenners"||shortendname === "Testbrandalarmschool"||shortendname === "Open dag,klein"||shortendname === "Open dag,groot"){
+    if(shortendname === "Voetbalwedstrijd"||shortendname === "Voetbalwedstrijd,risicowedstrijd"||shortendname === "Hardloopevenement"||shortendname === "Begeleidingorkest"||shortendname === "Begeleidingwielrenners"||shortendname === "Testbrandalarmschool"||shortendname === "Opendag,klein"||shortendname === "Opendag,groot"||shortendname === "Ontruimenkraakpand"){
      return "nope";
     }
     return shortendname;
