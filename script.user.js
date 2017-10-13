@@ -6,7 +6,7 @@
 // @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/mc/script.user.js
 // @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     0.4
+// @version     0.5
 // @grant       none
 // ==/UserScript==
 
@@ -115,6 +115,7 @@ var Fallenperson ="1x Ambulance (100%)";
 var Diabeticproblems  ="1x Ambulance (100%)";
 var FoodPoisoning ="1x Ambulance (100%)";
 var AllergicReaction ="1x Ambulance (100%)";
+var ChildBirth = "1x Ambulance (100%)";
 //2 Rescue Stations
 var Anaphylaxis ="1x Ambulance (100%)";
 var Overdose ="1x Ambulance (100%)</br>1x Police Car (100%)";
