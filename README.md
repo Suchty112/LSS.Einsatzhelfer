@@ -5,6 +5,10 @@ Er ist in dem [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) dri
 
 ## Changelog
 
+1.6
+
+Letzen Zich Einsätze geadded :D
+
 1.5.2
 
 - Ausgelöster Heimrauchmelder added
