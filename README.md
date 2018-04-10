@@ -4,6 +4,27 @@ Er ist in dem [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) dri
 
 
 ## Changelog
+
+1.5.2
+
+- Ausgelöster Heimrauchmelder added
+
+1.5.1
+
+- Person in Baumaschine eingeklemmt added
+
+1.5
+
+- Unbekannte Substanz added
+
+1.42
+
+- Chemieunfall in Schule added
+
+1.41
+
+- Added Verunglückter Fallschirmspringer
+
 1.4
 
 - Letzten Mission hinzugefügt
@@ -29,4 +50,5 @@ Er ist in dem [LSS-ManagerV3](https://github.com/LSS-Manager/lss-manager-v3) dri
 - Sommereinsätze Bugfix
 
 1.2.5.1
+
 - Bugfixxes bei einigen Einsätzen
