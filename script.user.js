@@ -3,10 +3,10 @@
 // @namespace   leitstellenspiel
 // @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
 // @include     https://www.leitstellenspiel.de/missions/*
-// @downloadURL https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
-// @updateURL   https://github.com/Suchty112/LSS.Einsatzhelfer/raw/master/script.user.js
-// @author    DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.5.2
+// @downloadURL https://eh.lss-m.de/script.user.js
+// @updateURL   https://eh.lss-m.de/script.user.js
+// @author      DrFussel u. KV Nürnberg/SanniHameln
+// @version     1.6
 // @grant       none
 // ==/UserScript==
 
