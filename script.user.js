@@ -9,7 +9,9 @@
 // @version     1.6
 // @grant       none
 // ==/UserScript==
+var myVersion = GM_info.script.version; 
 
+console.log ('Version: ', myVersion, myVersion === "1.6");
 //1 FW-Wache
 var KleinerWaldbrand = "1x Löschfahrzeug (100%)";
 var KleintierinNot = "1x Löschfahrzeug (100%) <br/> 1x Drehleiter (20%)";
