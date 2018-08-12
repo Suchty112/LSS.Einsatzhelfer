@@ -372,52 +372,35 @@
 				"358": '8x Funkstreifenwagen <br>4x SEK-Fahrzeuge <br>1x FüKw <br>1x Polizeihubschrauber <br>Rettungstransportwagen<br><br><span class="badge">Credits: ~ 4000 </span>',
 				"359": '5x Funkstreifenwagen <br>4x MEK-Fahrzeuge <br>6x GruKw <br>2x leBefKw <br>1x GefKw <br>1x FüKw <br>1x Polizeihubschrauber <br><br><span class="badge">Credits: ~ 9000 </span>',
 				"360": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
-				361: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
-				362: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
-				363: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
-				364: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
-				365: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
-				366: '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 550 </span>',
-				367: '6x Funkstreifenwagen<br>4x SEK-Fahrzeuge<br>1x FüKw<br><br><span class="badge">Credits: ~ 2800 </span>',
-				368: '15x Löschfahrzeuge<br>3x Drehleitern<br>2x Schlauchwagen<br>2x GW-Atemschutz<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2' +
-				'<br>1x GW-Messtechnik<br>4x Funkstreifenwagen<br>1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>1x LKW K 9<br>1x BRmG R<br>1x Anhänger DLE<br>' +
-				'max. 5x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 7500 </span>',
-				369: '2x Löschfahrzeuge<br>1x Drehleiter (10%)<br>1x Rüstwagen (30%)<br>1x GW-Messtechnik (50%)<br>1x Einsatzleitwagen 1<br>1x Funkstreifenwagen<br>' +
-				'max. 2x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 1800 </span>',
-				370: '4x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1000 </span>',
-				371: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 300 </span>',
-				372: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 300 </span>',
-				373: '1x Rettungstransportwagen',
-				374: '1x Rettungstransportwagen',
-				375: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 300 </span>',
-				376: '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 600 </span>',
-				377: '1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (30%)',
-				378: '<h4>SICHERHEITSWACHE</h4>4x MEK-Fahrzeuge<br>1x FüKw',
-				379: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
-				'Credits: ~ 900 </span>',
-				380: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
-				'Credits: ~ 900 </span>',
-				381: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
-				'Credits: ~ 900 </span>',
-				382: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
-				'Credits: ~ 900 </span>',
-				383: '1x Funkstreifenwagen<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 600 </span>',
-				384: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 1100 </span>',
-				385: '4x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Öl<br>1x GW-Atemschutz<br>' +
-				'1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>max. 3 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br>' +
-				'<span class="badge">Credits: ~ 5100 </span>',
-				386: '5x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>' +
-				'1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 5 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (50%)' +
-				'<br><br><span class="badge">Credits: ~ 5500 </span>',
-				387: '8x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Dekon-P (20%)<br>1x GW-Atemschutz<br>' +
-				'1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 1 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)' +
-				'<br><br><span class="badge">Credits: ~ 6500 </span>',
-				388: '5x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Drehleiter<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)' +
-				'<br><br><span class="badge">Credits: ~ 2500 </span>',
-				389: '16x Löschfahrzeuge<br>4x Drehleiter<br>1x Rüstwagen<br>1x Schlauchwagen (10%)<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>' +
-				'1x GW-Atemschutz<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Dekon-P (60%)<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x Turbolöscher<br>' +
-				'1x ULF mit Löscharm<br>3x Funkstreifenwagen<br>max. 3x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">' +
-				'Credits: ~ 8500 </span>'
+				"361": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				"362": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				"363": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				"364": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				"365": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				"366": '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 550 </span>',
+				"367": '6x Funkstreifenwagen<br>4x SEK-Fahrzeuge<br>1x FüKw<br><br><span class="badge">Credits: ~ 2800 </span>',
+				"368": '15x Löschfahrzeuge<br>3x Drehleitern<br>2x Schlauchwagen<br>2x GW-Atemschutz<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Messtechnik<br>4x Funkstreifenwagen<br>1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>1x LKW K 9<br>1x BRmG R<br>1x Anhänger DLE<br>max. 5x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 7500 </span>',
+				"369": '2x Löschfahrzeuge<br>1x Drehleiter (10%)<br>1x Rüstwagen (30%)<br>1x GW-Messtechnik (50%)<br>1x Einsatzleitwagen 1<br>1x Funkstreifenwagen<br>max. 2x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 1800 </span>',
+				"370": '4x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1000 </span>',
+				"371": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 300 </span>',
+				"372": '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 300 </span>',
+				"373": '1x Rettungstransportwagen',
+				"374": '1x Rettungstransportwagen',
+				"375": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 300 </span>',
+				"376": '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 600 </span>',
+				"377": '1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (30%)',
+				"378": '<h4>SICHERHEITSWACHE</h4>4x MEK-Fahrzeuge<br>1x FüKw',
+				"379": '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 900 </span>',
+				"380": '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 900 </span>',
+				"381": '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 900 </span>',
+				"382": '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 900 </span>',
+				"383": '1x Funkstreifenwagen<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 600 </span>',
+				"384": '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 1100 </span>',
+				"385": '4x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Öl<br>1x GW-Atemschutz<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>max. 3 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 5100 </span>',
+				"386": '5x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 5 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 5500 </span>',
+				"387": '8x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Dekon-P (20%)<br>1x GW-Atemschutz<br>1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 1 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 6500 </span>',
+				"388": '5x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Drehleiter<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 2500 </span>',
+				"389": '16x Löschfahrzeuge<br>4x Drehleiter<br>1x Rüstwagen<br>1x Schlauchwagen (10%)<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Dekon-P (60%)<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x Turbolöscher<br>1x ULF mit Löscharm<br>3x Funkstreifenwagen<br>max. 3x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 8500 </span>'
 		}
 	}
 
