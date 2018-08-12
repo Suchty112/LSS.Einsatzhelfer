@@ -8,9 +8,8 @@
 // @grant       none
 // ==/UserScript==
 
-(function() {
-    (function () {
-        let missions = {
+(function () {
+    let missions = {
 				"0": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 110 </span>',
 				"1": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 170 </span>',
 				"2": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 370 </span>',
@@ -18,7 +17,7 @@
 				"4": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 200 </span>',
 				"5": '2x Löschfahrzeuge <br>1x Drehleiter (30%)<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1400 </span>',
 				"6": '2x Löschfahrzeuge <br><br><span class="badge">Credits: ~ 600 </span>',
-				"7": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 210 </span>',
+                "7": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 210 </span>',
 				"8": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 220 </span>',
 				"9": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 250 </span>',
 				"10": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 600 </span>',
@@ -401,15 +400,14 @@
 				"387": '8x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Dekon-P (20%)<br>1x GW-Atemschutz<br>1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 1 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 6500 </span>',
 				"388": '5x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Drehleiter<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 2500 </span>',
 				"389": '16x Löschfahrzeuge<br>4x Drehleiter<br>1x Rüstwagen<br>1x Schlauchwagen (10%)<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Dekon-P (60%)<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x Turbolöscher<br>1x ULF mit Löscharm<br>3x Funkstreifenwagen<br>max. 3x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 8500 </span>'
-		}
-	}
+        }
 
-    let missionHelp : $('#mission_help');
+    let missionHelp = $('#mission_help');
 
     if (missionHelp.length > 0) {
-        let missionId : missionHelp.attr('href').split("/").pop().replace(/\?.*/, '');
-        let aaoText : missions[missionId];
-        let markup : '<div class="alert alert-warning"><h3>Benötigte Fahrzeuge</h3>' + aaoText + '</div>';
+        let missionId = missionHelp.attr('href').split("/").pop().replace(/\?.*/, '');
+        let aaoText = missions[missionId];
+        let markup = '<div class="alert alert-warning"><h3>Benötigte Fahrzeuge</h3>' + aaoText + '</div>';
 
         $('#mission-form').prepend(markup);
     }
