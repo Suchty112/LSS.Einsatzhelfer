@@ -4,7 +4,7 @@
 // @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
 // @include     https://www.leitstellenspiel.de/missions/*
 // @author      DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.6
+// @version     1.6.0.1
 // @grant       none
 // ==/UserScript==
 
