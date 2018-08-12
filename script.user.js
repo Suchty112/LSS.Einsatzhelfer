@@ -10,7 +10,7 @@
 
 (function() {
     (function () {
-        let missions : {
+        let missions = {
 				"0": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 110 </span>',
 				"1": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 170 </span>',
 				"2": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 370 </span>',
@@ -233,7 +233,7 @@
 				"219": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 500 </span>',
 				"220": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 500 </span>',
 				"221": '30x Löschfahrzeuge <br>4x GW-Atemschutz <br>1x GW-Öl <br>2x GW-L2-Wasser <br>3x Drehleiter <br>6x Einsatzleitwagen 1 <br>3x Einsatzleitwagen 2 <br>6x Rüstwagen <br>4x FwK <br>2x BRmG R <br>2x LKW K9 <br>1x MTW-TZ <br>1x GKW <br>1x MzKW <br>12x Funkstreifenwagen <br><br><span class="badge">Credits: ~ 17000 </span>',
-    			"222": '20x Löschfahrzeuge <br>2x GW-Atemschutz <br>1x GW-Öl <br>1x GW-L2-Wasser <br>2x Drehleiter <br>3x Einsatzleitwagen 1 <br>1x Einsatzleitwagen 2 <br>3x Rüstwagen <br>2x FwK <br>1x BRmG R <br>1x LKW K9 <br>1x MTW-TZ <br> 6x Funkstreifenwagen <br><br><span class="badge">Credits: ~ 14000 </span>',
+                "222": '20x Löschfahrzeuge <br>2x GW-Atemschutz <br>1x GW-Öl <br>1x GW-L2-Wasser <br>2x Drehleiter <br>3x Einsatzleitwagen 1 <br>1x Einsatzleitwagen 2 <br>3x Rüstwagen <br>2x FwK <br>1x BRmG R <br>1x LKW K9 <br>1x MTW-TZ <br> 6x Funkstreifenwagen <br><br><span class="badge">Credits: ~ 14000 </span>',
 				"223": '<h4>SICHERHEITSWACHE</h4>3x Löschfahrzeuge <br>1x Funkstreifenwagen ',
 				"224": '<h4>SICHERHEITSWACHE</h4>1x Löschfahrzeug <br>1x Rettungstransportwagen ',
 				"225": '<h4>SICHERHEITSWACHE</h4>3x Löschfahrzeuge <br>3x Rettungstransportwagen <br>1x GW-San ',
