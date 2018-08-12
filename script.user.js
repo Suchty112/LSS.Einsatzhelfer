@@ -4,7 +4,7 @@
 // @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
 // @include     https://www.leitstellenspiel.de/missions/*
 // @author      DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.6.0.4
+// @version     1.6.0.5
 // @grant       none
 // ==/UserScript==
 
@@ -262,7 +262,7 @@
 				"249": '3x Boote <br>3x GW-Taucher <br>3x GW-Wasserrettung<br>5x Löschfahrzeuge <br>1x Einsatzleitwagen 1 <br>min. 1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (30%)<br>3x Funkstreifenwagen <br><br><span class="badge">Credits: ~ 3000 </span>',
 				"250": '1x Boot <br><br><span class="badge">Credits: ~ 1000 </span>',
 				"251": '1x Boot <br>1x Rettungstransportwagen <br>1x Notarzteinsatzfahrzeug (90%)<br><br><span class="badge">Credits: ~ 1200 </span>',
-				"252": '1x Boot <br>1x Rettungstransportwagen <br>1x Notarzteinsatzfahrzeug (90%)<br>''3x Löschfahrzeuge <br>1x Einsatzleitwagen 1 <br><br><span class="badge">Credits: ~ 1400 </span>',
+				"252": '1x Boot<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (90%)<br>3x Löschfahrzeuge <br>1x Einsatzleitwagen 1 <br><br><span class="badge">Credits: ~ 1400 </span>',
 				"253": '2x Boote <br>2x GW-Taucher <br>2x GW-Wasserrettung<br>3x Löschfahrzeuge <br>1x Einsatzleitwagen 1 <br>1x Rettungstransportwagen <br>1x Notarzteinsatzfahrzeug (90%)<br>2x Funkstreifenwagen <br><br><span class="badge">Credits: ~ 1400 </span>',
 				"254": '3x Boote <br>3x GW-Taucher <br>3x GW-Wasserrettung<br>5x Löschfahrzeuge <br>1x Einsatzleitwagen 1 <br>1x Rettungstransportwagen <br>1x Notarzteinsatzfahrzeug (30%)<br>3x Funkstreifenwagen <br><br><span class="badge">Credits: ~ 2000 </span>',
 				"255": '3x Boote <br>3x GW-Taucher <br>3x GW-Wasserrettung<br>5x Löschfahrzeuge <br>1x Einsatzleitwagen 1 <br>min. 1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (30%)<br>3x Funkstreifenwagen <br><br><span class="badge">Credits: ~ 3000 </span>',
@@ -400,7 +400,7 @@
 				"387": '8x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Dekon-P (20%)<br>1x GW-Atemschutz<br>1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 1 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 6500 </span>',
 				"388": '5x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Drehleiter<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 2500 </span>',
 				"389": '16x Löschfahrzeuge<br>4x Drehleiter<br>1x Rüstwagen<br>1x Schlauchwagen (10%)<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Dekon-P (60%)<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x Turbolöscher<br>1x ULF mit Löscharm<br>3x Funkstreifenwagen<br>max. 3x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 8500 </span>'
-        }
+        };
 
     let missionHelp = $('#mission_help');
 
