@@ -4,7 +4,7 @@
 // @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
 // @include     https://www.leitstellenspiel.de/missions/*
 // @author      DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.6.0.3
+// @version     1.6.0.4
 // @grant       none
 // ==/UserScript==
 
@@ -13,7 +13,7 @@
 				"0": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 110 </span>',
 				"1": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 170 </span>',
 				"2": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 370 </span>',
-				"3": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 340 </span>',
+				"3": '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 340 </span>',
 				"4": '1x Löschfahrzeug <br><br><span class="badge">Credits: ~ 200 </span>',
 				"5": '2x Löschfahrzeuge <br>1x Drehleiter (30%)<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1400 </span>',
 				"6": '2x Löschfahrzeuge <br><br><span class="badge">Credits: ~ 600 </span>',
