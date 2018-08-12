@@ -3,8 +3,6 @@
 // @namespace   leitstellenspiel
 // @description Zeigt in einem Info-Fenster die benötigten Fahrzeuge an
 // @include     https://www.leitstellenspiel.de/missions/*
-// @downloadURL https://eh.lss-m.de/script.user.js
-// @updateURL   https://eh.lss-m.de/script.user.js
 // @author      DrFussel u. KV Nürnberg/SanniHameln
 // @version     1.6
 // @grant       none
