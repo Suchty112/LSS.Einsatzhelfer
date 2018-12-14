@@ -6,7 +6,7 @@
 // @downloadURL https://eh.lss-m.de/script.user.js
 // @updateURL   https://eh.lss-m.de/script.user.js
 // @author      DrFussel u. KV Nürnberg/SanniHameln
-// @version     1.6.3
+// @version     1.6.4
 // @grant       none
 // ==/UserScript==
 
@@ -430,7 +430,12 @@
 				"415": '1x Funkstreifenwagen<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (50%) / Rettungstransporthubschrauber (10%)<br><br><span class="badge">Credits: ~ 200 </span>',
 				"416": '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)',
 				"417": '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)',
-				"418": '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>'
+        "418": '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>',
+        "419": '6x Löschfahrzeuge<br>3x Rüstwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x Schlauchwagen<br>1x GW-Werkfeuerwehr<br>2x GW-Atemschutz<br>2x Drehleiter<br>1x GW-Messtechnik<br>2x Funkstreifenwagen<br>min. 1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (60%)<br><br><span class="badge">Credits: ~ 4500 </span>',
+        "420": '1x Rettungstransportwagen',
+        "421": '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>2x Funkstreifenwagen<br>Rettungstransportwagen<br>Notarzteinsatzfahrzeug (40%)<br><br><span class="badge">Credits: ~ 800 </span>',
+        "422": '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>',
+        "423": '6x Löschfahrzeuge<br>1x Drehleiter<br>1x Rüstwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x Schlauchwagen (10%)<br>1x GW-Atemschutz (5%)<br>3x Funkstreifenwagen<br>Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 3100 </span>'
 
     };
 
